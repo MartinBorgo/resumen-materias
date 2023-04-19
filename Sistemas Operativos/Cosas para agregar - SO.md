@@ -19,3 +19,16 @@ El modo dual (usuario - kernel) nos proporciona medios para proteger el SO de lo
 
 ##### Temporizador
 
+##### Gestión de procesos
+
+##### Gestión de memoria
+
+##### Gestión de almacenamiento
+
+##### Protección y seguridad
+
+##### Sistemas distribuidos
+
+##### Sistemas embebidos en tiempo real
+
+##### Sistema cliente-servidor
