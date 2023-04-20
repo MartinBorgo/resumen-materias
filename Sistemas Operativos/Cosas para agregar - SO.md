@@ -17,13 +17,39 @@ Cuando el sistema está ejecutando una aplicación de usuario, se encuentra en m
 El modo dual (usuario - kernel) nos proporciona medios para proteger el SO de los usuarios que puedan causar errores, y también proteger a los usuarios de los errores de otros usuarios. Esta protección se consigue designando algunas de las instrucciones de máquina que pueden causar daño como **instrucciones privilegiadas**. Estas solo se ejecutan en modo *kernel*, si se trata de ejecutar en modo usuario la trata de ilegal y envía una excepción al SO.
 
 
-##### Temporizador
+##### Temporizador (Quantum)
+Debemos asegurar que el SO mantenga el control sobre la CPU. Por ejemplo, debemos impedir que un programa de usuario entre en un bucle infinito o que no llame a los servicios del sistema y nunca devuelva el control al SO. Para alcanzar este objetivo, podemos usar un **temporizador**. Puede configurarse un temporizador para interrumpir a la computadora después de un periodo especificado. El periodo puede ser fijo o variable. Generalmente, se implementa un **temporizador variable** mediante un reloj de frecuencia fija y un contador. Antes de devolver el control al usuario, el SO se asegura de que el temporizador esté configurado para realizar interrupciones. Cuando el temporizador interrumpe, el control se transfiere automáticamente al SO, que puede tratar la interrupción como un error fatal o puede conceder más tiempo al programa. Evidentemente, las instrucciones que modifican el contenido del temporizador son instrucciones privilegiadas. Por tanto, podemos usar el temporizador para impedir que un programa de usuario se esté ejecutando durante un tiempo excesivo.
 
 ##### Gestión de procesos
+Un programa no hace nada a menos que una CPU ejecute sus instrucciones. Un programa en ejecución, es un proceso. Un programa de usuario de tiempo compartido, como por ejemplo un compilador, es un proceso. Por el momento vamos a considerar que un proceso es un trabajo o un programa en tiempo compartido, aunque, es posible proporcionar llamadas al sistema que permitan a los procesos crear subprocesos que se ejecuten de forma concurrente.
+Un proceso necesita para llevar a cabo su tarea ciertos recursos, entre los que incluyen tiempo de CPU, memoria, archivos y dispositivos de E/S. Estos recursos se proporcionan al proceso en el momento de crearlo o se le asignan mientras se está ejecutando. Además de los diversos recursos físicos y lógicos que un proceso obtiene en el momento de su creación, pueden pasársele diversos datos de inicialización (entradas).
+Algo importante es que un programa por si solo no es un proceso; un programa es una entidad *pasiva*, tal como los contenidos de un archivo almacenado en disco, mientras que un proceso es una entidad activa. Un proceso de una sola hebra tiene un **contador de programa** que especifica la siguiente instruccion que hay que ejecutar. La ejecución de un proceso así debe ser secuencial: la CPU ejecuta una instrucción del proceso después de otra, hasta completarlo. Además, en cualquier instante, se estará ejecutando como mucho una instancia en nombre del proceso. Por tanto, puede haber dos procesos asociados con el mismo programa, se considerarían no obstante como dos secuencias de ejecución separadas. Un proceso multihebra que haya que ejecutar para una hebra determinada. Un proceso es una unidad de trabajo en un sistema. Cada sistema consta de una colección de procesos, siendo algunos de ellos procesos del SO (ejecutan código del sistema) y el resto procesos de usuario (ejecutan código del usuario). Todos estos (potencialmente) pueden ejecutarse de forma concurrente.
+
+El SO es el encargado de las siguientes actividades en la gestión de procesos:
+-Crear y borrar los procesos de usuario y del sistema.
+-Suspender y reanudar los procesos.
+-Proporcionar mecanismos para la sincronización de procesos.
+-Proporcionar mecanismos para la comunicación entre procesos.
+-Proporcionar mecanismos para el tratamiento de los interbloqueos.
 
 ##### Gestión de memoria
+Para que un programa pueda ejecutarse, debe estar asignado a direcciones absolutas y cargado en memoria. Mientras el programa se está ejecutando, accede a las instrucciones y a los datos de la memoria generando dichos direcciones absolutas. Finalmente, el programa termina, su espacio de memoria se declara disponible y el siguiente programa puede ser cargado y ejecutado. Para mejorar tanto la utilización de la CPU como la velocidad de respuesta de la computadora frente a los usuarios, las computadoras de propósito general pueden mantener varios programas en memoria, lo que crea la necesidad de mecanismos (esquemas) de gestión de la memoria. Estos esquemas utilizan enfoques distintos y la efectividad de cualquier algoritmo dado depende de la situación. En la selección de un esquema de gestión de memoria para un sistema específico, debemos tener en cuenta muchos factores, especialmente relativos al diseño *hardware* del sistema. Cada algoritmo requiere su propio soporte HW.
+
+El SO es el encargado de las siguientes actividades en la gestión de memoria:
+-Controlar que partes de la memoria están actualmente en uso y por parte de quien.
+-Decidir que datos y procesos (o partes de procesos) añadir o extraer de la memoria.
+-Asignar y liberar la asignación de espacio de memoria según sea necesario.
+
 
 ##### Gestión de almacenamiento
+Para que el sistema informático sea cómodo para los usuarios, el SO proporciona una vista lógica y uniforme del sistema de almacenamiento de la información. El SO abstrae las propiedades físicas de los dispositivos de almacenamiento y define una unidad de almacenamiento lógico, el **archivo**. El SO asigna los archivos a los soportes físicos y accede a dichos archivos a través de los dispositivos de almacenamiento. Los archivos normalmente se organizan en directorios para hacer más fácil su uso. 
+
+El SO es el encargado de las siguientes actividades en la gestión de archivos:
+-Creación y borrado de archivos.
+-Creación y borrado de directorios para organizar los archivos.
+-Soporte de primitivas para manipular archivos y directorios.
+-Asignación de archivos a los dispositivos de almacenamiento secundario.
+Copia de seguridad de los archivos en medios de almacenamiento estables (no volátiles).
 
 ##### Protección y seguridad
 
