@@ -15,7 +15,7 @@ Esta característica de un autómata finito determinista lo hace más fácil de 
 ##### Sobre la extensión de la función de transición
 La función de transición es una función matemática que se define en un autómata finito determinista (AFD) y que toma como entrada un estado del autómata y un símbolo del alfabeto de entrada, y devuelve como salida el siguiente estado en el que debe encontrarse el autómata después de haber leído ese símbolo desde el estado actual.
 
-La extensión de la función de transición se refiere a la posibilidad de extender esta función de transición a cadenas de símbolos del alfabeto de entrada, de tal forma que se pueda obtener el estado final en el que debería estar el autómata después de haber procesado completamente dicha cadena. Esta función extendida se llama función de transición extendida o función de transición de cadena (o sobre palabras).
+La extensión de la función de transición se refiere a la posibilidad de extender esta función de transición a cadenas de símbolos del alfabeto de entrada, de tal forma que se pueda obtener el estado final en el que debería estar el autómata después de haber procesado completamente dicha cadena. Esta función extendida se llama ***función de transición extendida o función de transición de cadena*** (o sobre palabras).
 
 ##### Minimización de AFD
 Los algoritmos que simulan o implementan automatas finitos deterministas suelen requerir un espacio más o menos proporcional al número de estados del autómata, por lo que interesa que el número de dichos estados sea el menor posible. En un autómata puede haber dos tipos de estados *innecesarios*, que es posible eliminar o combinar para minimizar el número de estados. Por esta razón, existen dos operaciones de minimización diferentes:
