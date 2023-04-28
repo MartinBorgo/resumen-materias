@@ -51,6 +51,8 @@ El SO es el encargado de las siguientes actividades en la gestión de archivos:
 -Asignación de archivos a los dispositivos de almacenamiento secundario.
 Copia de seguridad de los archivos en medios de almacenamiento estables (no volátiles).
 
+---
+
 #### Procesos
 Un proceso es la unidad de trabajo (un programa en ejecución) en los sistemas modernos de tiempo compartido, mientras más complejo el SO, más se espera que haga en nombre de sus usuarios. Aunque su objetivo principal es la ejecución de programas de usuario, también tiene que ocuparse de diversas tareas del sistema, que no están incluidas dentro del kernel. Por tanto, un sistema está formado por una colección de procesos: procesos del SO que ejecutan código del sistema y procesos de usuario que ejecutan código de usuario.
 
