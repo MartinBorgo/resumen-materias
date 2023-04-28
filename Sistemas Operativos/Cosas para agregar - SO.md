@@ -51,10 +51,35 @@ El SO es el encargado de las siguientes actividades en la gestión de archivos:
 -Asignación de archivos a los dispositivos de almacenamiento secundario.
 Copia de seguridad de los archivos en medios de almacenamiento estables (no volátiles).
 
-##### Protección y seguridad
+#### Procesos
+Un proceso es la unidad de trabajo (un programa en ejecución) en los sistemas modernos de tiempo compartido, mientras más complejo el SO, más se espera que haga en nombre de sus usuarios. Aunque su objetivo principal es la ejecución de programas de usuario, también tiene que ocuparse de diversas tareas del sistema, que no están incluidas dentro del kernel. Por tanto, un sistema está formado por una colección de procesos: procesos del SO que ejecutan código del sistema y procesos de usuario que ejecutan código de usuario.
 
-##### Sistemas distribuidos
+Hay que resaltar que un proceso es algo más que el código de un programa (al que en ocasiones se denomina **sección de texto**) Además del código, un proceso incluye también la actividad actual, que queda representada por el valor del **contador de programa** y por los contenidos de los registros del procesador. Generalmente, un proceso incluye también la **pila** del proceso, que contiene datos temporales (parámetros de las funciones, las direcciones de retorno y las variables locales), y una **sección de datos**, que contiene las variables globales. El proceso puede incluir, asimismo, un **cúmulo de memoria,** que es la memoria que se asigna dinámicamente al proceso en tiempo de ejecución. Insistimos que un programa, por sí mismo, no es proceso; un programa es una unidad pasiva, un archivo que contiene una lista de instrucciones almacenadas en disco (a menudo denominado **archivo ejecutable**), mientras que un proceso es una entidad activa, con un contador de programa que especifica la siguiente instruccion que hay que ejecutar y un conjunto de recursos asociados. Un programa se convierte en un proceso cuando se carga en memoria un archivo ejecutable. Aunque puede haber dos procesos asociados con el mismo programa, esos procesos se consideran dos secuencias de ejecución separadas. 
 
-##### Sistemas embebidos en tiempo real
+Por ejemplo, varios usuarios pueden estar ejecutando copias diferentes del programa de correo, o el mismo usuario puede invocar muchas copias del explorador web. Cada copia es un proceso distinto y, aunque las secciones de texto (código del programa) sean equivalentes, las secciones de datos, del cúmulo (*heap*) de memoria y de la pila variaran de unos procesos a otros. También es habitual que un proceso cree muchos otros procesos a medida que se ejecuta.
 
-##### Sistema cliente-servidor
+##### Estado del proceso
+A medida que se ejecuta un proceso, el proceso va cambiando de **estado**. El estado de un proceso se define, en parte, según la actividad actual de dicho proceso. Cada proceso puede estar en uno de los siguientes estados:
+- **Nuevo.** El proceso está siendo creado.
+- **En ejecución.** Se están ejecutando las instrucciones
+- **En espera.** El proceso está esperando a que se produzca un suceso (como la terminación de una operación de E/S o la recepción de una señal)
+- **Preparado.** El proceso está a la espera de que le asignen a un procesador.
+- **Terminado.** Ha terminado la ejecución del proceso.
+
+Es importante darse cuenta de que solo puede haber un proceso *ejecutándose* en cualquier procesador en cada instante concreto. Sin embargo, puede haber muchos procesos *preparados* y en *espera*.
+
+##### Bloque de control de proceso
+Cada proceso se representa en el SO mediante un **bloque de control de proceso** (PCB, process control block), también denominado *bloque de control de tarea*. Un bloque de control de proceso contiene muchos elementos de información asociados con un proceso específico, entre los que se incluyen.
+- **Estado del proceso.**
+- **Contador de programa.**
+- **Registros de la CPU.**
+- **Información de planificación de la CPU**
+- **Información de gestión de memoria**
+- **Información contable.**
+- **Información del estado de E/S.**
+
+##### Cambio de contexto
+
+#### Operaciones sobre los procesos
+##### Creación de procesos
+##### Terminación de procesos
