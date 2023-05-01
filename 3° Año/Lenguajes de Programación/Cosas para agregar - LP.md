@@ -27,3 +27,17 @@ Describe el **significado** del lenguaje **especificando como se ejecuta un prog
 
 ##### **Semántica denotacional**
 Define la función que computa el programa (se lo ve al programa como una función, entrada, proceso, salida), pero sin ocuparse de la forma en que lo hace (se abstrae). Tiene un nivel de abstracción mayor que el de la semántica operacional y esto permite estudiar propiedades formales de los programas, como, por ejemplo, las equivalencias que pueda haber entre dos programas, desde el POV del resultado que dan (sin importar la entrada, proceso).
+
+#### Unidad 3 entidades
+##### La distinción entre estático y dinámico
+Una de las cuestiones más importantes a las que nos enfrentamos al diseñar un compilador
+para un lenguaje es la de qué decisiones puede realizar el compilador acerca de un programa. Si un lenguaje utiliza una directiva que permite al compilador decidir sobre una cuestión, entonces decimos que el lenguaje utiliza una directiva *estática*, o que la cuestión puede decidirse en *tiempo de compilación*. Por otro lado, se dice que una directiva que sólo permite realizar una decisión a la hora de ejecutar el programa es una directiva *dinámica*, o que requiere una decisión en tiempo de ejecución.
+
+Un lenguaje utiliza el *alcance estático* o *alcance léxico* si es posible determinar el alcance de una declaración con sólo ver el programa. En cualquier otro caso, el lenguaje utiliza un *alcance dinámico*. Con el alcance dinámico, a medida que se ejecuta el programa, el mismo uso de x podría referirse a una de varias declaraciones distintas de x.
+
+**Ejemplo:** Como otro ejemplo de la distinción entre estático y dinámico, considere el
+uso del término “static” según se aplica a los datos en la declaración de una clase en Java. En Java, una variable es un nombre para una ubicación en memoria que se utiliza para almacenar un valor de datos. Aquí, “static” no se refiere al alcance de la variable, sino a la habilidad del compilador para determinar la ubicación en memoria en la que puede encontrarse la variable declarada. Una declaración como:
+**public static int x;**
+
+hace de x una variable de clase e indica que sólo hay una copia de x, sin importar cuántos
+objetos se creen de esta clase. Lo que es más, el compilador puede determinar una ubicación en memoria en la que se almacene este entero x. En contraste, si se hubiera omitido la palabra “static” de esta declaración, entonces cada objeto de la clase tendría su propia ubicación en la que se guardara x, y el compilador no podría determinar todos estos lugares antes de ejecutar el programa. 
