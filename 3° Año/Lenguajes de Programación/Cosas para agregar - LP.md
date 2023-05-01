@@ -29,6 +29,20 @@ Describe el **significado** del lenguaje **especificando como se ejecuta un prog
 Define la función que computa el programa (se lo ve al programa como una función, entrada, proceso, salida), pero sin ocuparse de la forma en que lo hace (se abstrae). Tiene un nivel de abstracción mayor que el de la semántica operacional y esto permite estudiar propiedades formales de los programas, como, por ejemplo, las equivalencias que pueda haber entre dos programas, desde el POV del resultado que dan (sin importar la entrada, proceso).
 
 #### Unidad 3 entidades
+##### Ligadura y tiempo de ligadura (enlace, enlace = ligadura)
+Ligadura de un elemento de programa a una caracteristica o propiedad particular como simplemente la eleccion de la propiedad de entre un conjunto de propiedades posibles. El momento durante la formulacion o procesamiento del programa en el que se hace esta eleccion se conoce como el tiempo de ligadura de esa propiedad para ese elemento.
+
+##### Clases de ligaduras
+Es posible distinguir unos cuantos tiempos de enlace principales si se recuerda el supuesto basico de que en el procesamiento de un programa, independientemende del lenguaje, siempre interviene un paso de traduccion seguido de la ejecucion del programa traducido.
+
+1. Tiempo de ejecucion: Muchos enlaces se llevan a cabo durante la ejecucion del programa. Esto incluye enlaces de variables a sus valores, asi como el enlace de variables a localidades particulares de almacenamiento. Es posible distinguir dos subcategorias importantes *Al entrar a un subprograma o bloque* y *En puntos arbitrarios durante la ejecucion*.
+	1. Al entrar a un subprograma o bloque: En casi todos los lenguajes las clases importantes de enlaces solo pueden ocurrir ren el momento de entrar a un subprograma o bloque durante la ejecucion. Por ejemplo. en C y Pascal, el enlace de parametros formales a reales y el enlace de parametros formales a localidades particulares de almacenamiento solo pueden ocurrir a entrar a un subprograma.
+	2. En puntos arbitrarios durante la ejecucion: Ciertos enlaces pueden ocurrir en cualquier punto durante la ejecucion de un programa. El ejemplo mas importante en este caso es el enlace basico de variables a valores a traves de asignacion, en tanto que ciertos lenguajes como LISP tambien permiten que ocurra el enlace de nombres a localidades de almacenamiento en puntos arbitrarios del programa.
+
+2. Tiempo de traduccion (tiempo de compilacion): Se pueden distinguir tres clases distintas de enlaces: 
+	1. Enlaces elegidos por el programador: Al escribir un programa, el programador toma conscientemente muchas decisiones respecto a opciones de nombres de variables, tipos para las variables, etc. Que representan enlaces durante la traduccion. El traductor del lenguaje utiliza estos enlaces para determinar la forma final del programa objeto.
+
+	1.  Enlaces elegidos por el traductor: Ciertos enlances son elegidos por el traductor del lenguaje sin que el programador los especifique directamente. Por ejemplo, la localidad relativa de un objeto de datos en el almacenamiento asignado para un procedimiento se maneja en general sin el conocimiento o intervencion del programador. Como se guardan los arreglos, en su caso, es otra decision que toma el traductor del lenguaje.
 ##### La distinción entre estático y dinámico
 Una de las cuestiones más importantes a las que nos enfrentamos al diseñar un compilador
 para un lenguaje es la de qué decisiones puede realizar el compilador acerca de un programa. Si un lenguaje utiliza una directiva que permite al compilador decidir sobre una cuestión, entonces decimos que el lenguaje utiliza una directiva *estática*, o que la cuestión puede decidirse en *tiempo de compilación*. Por otro lado, se dice que una directiva que sólo permite realizar una decisión a la hora de ejecutar el programa es una directiva *dinámica*, o que requiere una decisión en tiempo de ejecución.
