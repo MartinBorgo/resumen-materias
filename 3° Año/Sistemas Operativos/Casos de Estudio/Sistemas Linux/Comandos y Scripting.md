@@ -17,6 +17,16 @@
 - **echo** -> imprime un mensaje por consola
 - **alias** -> define un pseudónimo para un comando que resulta difícil de recordar o largo de escribir.
 - **shutdown** -> permite reiniciar, apagar o programar el apagado de la computadora. Es un comando que engloba un conjunto de comandos como por ejemplo el ***reboot***.
+
+>[!note] Algunas Utilidades extras del Comando
+>**sudo shutdown -r** -> reinicia la computadora.
+>**sudo shutdown +10** -> va a apagar la computadora dentro de 10 minutos.
+>**sudo shutdown 18:00** -> va a apagar la computadora a las 18 horas.
+>
+>En caso de que se necesite cancelar algún reinicio o apagado programado, se puede hacer usando el siguiente comando.
+>
+>sudo shutdown -c
+
 - **ps** -> obtiene un listado y estadísticas de los procesos activos. Si a este comando le agregamos la opción ***-aux*** se mostrarán todos los procesos activos de todos los usuarios.
 - **kill** -> solicita a un proceso que finalice su ejecución o lo mata.
 - **chmod** -> cambia el modo de los archivos que es el que controla los permisos de acceso asociados con ese archivo.
