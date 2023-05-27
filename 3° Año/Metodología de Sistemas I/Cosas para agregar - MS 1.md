@@ -59,3 +59,7 @@ Un estudio de factibilidad es una evaluación de cómo se puede llevar a cabo co
 4. **Factibilidad legal**: Evalúa si el sistema propuesto cumple con todas las leyes y regulaciones relevantes.
     
 5. **Factibilidad de planificación**: Evalúa si el proyecto puede ser completado en el tiempo disponible.
+
+El estudio de factibilidad lo lleva a cabo un pequeño equipo de personas (en ocasiones una o dos) que está familiarizado con técnicas de sistemas de información; dicho equipo comprende la parte de la empresa u organización que participara o se vera afectada por el proyecto, y es gente experta en los procesos de análisis y diseño de sistemas. En general, las personas que son responsables de evaluar la factibilidad son analistas capacitados o directivos.
+
+#### Ingeniería de Requerimientos (IR)
