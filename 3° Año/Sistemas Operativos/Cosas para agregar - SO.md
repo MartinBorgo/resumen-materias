@@ -70,17 +70,23 @@ A medida que se ejecuta un proceso, el proceso va cambiando de **estado**. El es
 
 Es importante darse cuenta de que solo puede haber un proceso *ejecutándose* en cualquier procesador en cada instante concreto. Sin embargo, puede haber muchos procesos *preparados* y en *espera*.
 
-##### Bloque de control de proceso
+##### Bloque de control de proceso (PCB)
 Cada proceso se representa en el SO mediante un **bloque de control de proceso** (PCB, process control block), también denominado *bloque de control de tarea*. Un bloque de control de proceso contiene muchos elementos de información asociados con un proceso específico, entre los que se incluyen.
-- **Estado del proceso.**
-- **Contador de programa.**
-- **Registros de la CPU.**
-- **Información de planificación de la CPU**
-- **Información de gestión de memoria**
-- **Información contable.**
-- **Información del estado de E/S.**
+- **Estado del proceso.** El estado puede ser nuevo, preparado, en ejecución, en espera, detenido, etc.
+- **Contador de programa.** El contador indica la dirección de la siguiente instruccion que va a ejecutar dicho proceso
+- **Registros de la CPU.** Los registros varían en cuanto a número y tipo, dependiendo de la arquitectura de la computadora. Incluyen los acumuladores, registros de índice, punteros de pila y registros de propósito general, además de toda la información de los indicadores de estado. Esta información de estado debe guardarse junto con el contador de programa cuando se produce una interrupción, para que luego el proceso pueda continuar ejecutándose correctamente.
+- **Información de planificación de la CPU.** Esta información incluye la prioridad del proceso, los punteros a las colas de planificación y cualesquiera otros parámetros de planificación que se requieran.
+- **Información de gestión de memoria.** Incluye información acerca del valor de los registros base y límite, las tablas de páginas o tablas de segmentos, dependiendo del mecanismo de gestión de memoria utilizado por el SO.
+- **Información contable.** Esta información incluye la cantidad de CPU y de tiempo real empleado, los límites de tiempo asignado, los números de cuenta, el número de proceso (o trabajo), etc.
+- **Información del estado de E/S.** Esta información incluye la lista de los dispositivos de E/S asignados al proceso, una lista de los archivos abiertos, etc.
 
-##### Cambio de contexto
+En resumen, el PCB sirve simplemente como repositorio de cualquier información que pueda variar de un proceso a otro.
+
+##### Planificación de procesos
+
+###### Colas de planificación
+###### Planificadores
+###### Cambio de contexto
 
 #### Operaciones sobre los procesos
 ##### Creación de procesos
