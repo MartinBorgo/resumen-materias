@@ -15,18 +15,11 @@ Es una serie de actividades relacionadas que conduce a la elaboración de un pro
 
 En cierta forma, tales actividades forman parte de todos los procesos de software. Por supuesto, en la práctica estas son actividades complejas en sí mismas e incluyen sub actividades tales como la validación de requerimientos, el diseño arquitectónico, la prueba de unidad, etcétera. También existen actividades de soporte al proceso, como la documentación y el manejo de la configuración del software. Cuando los procesos se discuten y describen, por lo general se habla de actividades como especificar un modelo de datos, diseñar una interfaz de usuario, etcétera, así como del orden de dichas actividades. Sin embargo, al igual que las actividades, también las descripciones de los procesos deben incluir:
 
-1. **Productos**, que son los resultados de una actividad del proceso. Por ejemplo, el
-resultado de la actividad del diseño arquitectónico es un modelo de la arquitectura
-de software.
+1. **Productos**, que son los resultados de una actividad del proceso. Por ejemplo, el resultado de la actividad del diseño arquitectónico es un modelo de la arquitectura de software.
 
-2. **Roles**, que reflejan las responsabilidades de la gente que interviene en el proceso.
-Ejemplos de roles: gerente de proyecto, gerente de configuración, programador,
-etcétera.
+2. **Roles**, que reflejan las responsabilidades de la gente que interviene en el proceso. Ejemplos de roles: gerente de proyecto, gerente de configuración, programador, etcétera.
 
-3. **Precondiciones y postcondiciones**, que son declaraciones válidas antes y después de
-que se realice una actividad del proceso o se cree un producto. Por ejemplo, antes
-de comenzar el diseño arquitectónico, una precondición es que el cliente haya aprobado todos los requerimientos; después de terminar esta actividad, una postcondición
-podría ser que se revisen aquellos modelos UML que describen la arquitectura.
+3. **Precondiciones y postcondiciones**, que son declaraciones válidas antes y después de que se realice una actividad del proceso o se cree un producto. Por ejemplo, antes de comenzar el diseño arquitectónico, una precondición es que el cliente haya aprobado todos los requerimientos; después de terminar esta actividad, una postcondición podría ser que se revisen aquellos modelos UML que describen la arquitectura.
 
 Los procesos de software son complejos y, como todos los procesos intelectuales y creativos, se apoyan en personas con capacidad de juzgar y tomar decisiones. No hay un proceso ideal; además, la mayoría de las organizaciones han diseñado sus propios procesos de desarrollo de software. Los procesos han evolucionado para beneficiarse de las capacidades de la gente en una organización y de las características específicas de los sistemas que se están desarrollando. Para algunos sistemas, como los sistemas críticos, se requiere de un proceso de desarrollo muy estructurado. Para los sistemas empresariales, con requerimientos rápidamente cambiantes, es probable que sea más efectivo un proceso menos formal y flexible.
 
