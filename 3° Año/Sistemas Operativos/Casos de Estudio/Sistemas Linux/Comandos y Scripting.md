@@ -1,3 +1,4 @@
+## Comandos Fundamentales
 - **man [comand]** -> muestra la documentación (páginas del manual) sobre el comando, archivo o función solicitada.
 - **--help** -> Es una opción que tienen todos los comandos, la cual muestra un mensaje por pantalla sobre el modo de empleo del comando.
 - **whatis** -> muestra un breve mensaje por pantalla sobre el propósito del comando.
@@ -7,6 +8,9 @@
 - **mkdir** -> crea un directorio.
 - **rmdir** -> elimina un directorio, siempre y cuando este esté vacío.
 - **cat, more, less** -> nos permiten visualizar por consola el contenido de un archivo.
+	- cat se usa para concatenar el contenido de dos o mas archivos y que te lo mostrara por consola.
+	- more te muestra el archivo completo en consola.
+	- less te lista los archivos en formato página, es decir, te muestra solo una parte del archivo, y vos podes ir navegando a la siguiente página usando las teclas correspondientes.
 - **cp** -> copia uno o varios archivos o directorios a otro archivo o directorio.
 - **mv** -> mueve un archivo o directorio a otro directorio, o también se puede usar para cambiar el nombre a los archivos.
 - **rm** -> elimina un archivo o directorio si se le agrega unas opciones.
