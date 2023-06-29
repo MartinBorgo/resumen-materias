@@ -66,5 +66,13 @@ Los caracteres en esta asignación podrían agruparse en los siguientes lexemas 
 ![[ejemploTraduccion.PNG]]
 
 ##### Análisis sintáctico
+La segunda fase del compilador es el análisis sintáctico o parsing. El parser (analizador sintáctico) utiliza los primeros componentes de los tokens producidos por el analizador de léxico para crear una representación intermedia en forma de árbol que describa la estructura gramatical del flujo de tokens. Una representación típica es el árbol sintáctico, en el cual cada nodo interior representa una operación y los hijos del nodo representan los argumentos de la operación.
 
+##### Análisis semántico
+El analizador semántico utiliza el árbol sintáctico y la información en la tabla de símbolos para comprobar la consistencia semántica del programa fuente con la definición del lenguaje. También recopila información sobre el tipo y la guarda, ya sea en el árbol sintáctico o en la tabla de símbolos, para usarla más tarde durante la generación de código intermedio. Una parte importante del análisis semántico es la comprobación (verificación) de tipos, en donde el compilador verifica que cada operador tenga operandos que coincidan. Por ejemplo, muchas definiciones de lenguajes de programación requieren que el índice de un arreglo sea entero; el compilador debe reportar un error si se utiliza un número de punto flotante para indexar el arreglo. La especificación del lenguaje puede permitir ciertas conversiones de tipo conocidas como coerciones.
+
+##### Generación de código intermedio
+##### Optimización de código
+##### Generación de código
+#### Administración de la tabla de símbolos
 [^1]: Hablando en sentido técnico, para el lexema 60 formaríamos un token como *<número, 4>*, en donde 4 apunta a la tabla de símbolos para la representación interna del entero 60
