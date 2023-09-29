@@ -5,4 +5,4 @@ El cuerpo de una unidad está conformado por:
 Otro que tengo anotado es que: Los parámetros son variables locales, aunque estén en el header
 
 Una cosa a tener en cuenta es que en la imagen 1. Unidades (unidad 6)
-la imagen de las semánticas in, out, in-out mode. pone "función llamadora" y "función llamada". En realidad tendría que ser "unidad llamadora" y "unidad llamada", haciendo todo más genérico sin mencionar especificaciones de alguna unidad.
+la imagen de las semánticas in, out e in-out mode. Pone "función llamadora" y "función llamada". En realidad tendría que ser "unidad llamadora" y "unidad llamada", haciendo todo más genérico sin mencionar especificaciones de alguna unidad.
