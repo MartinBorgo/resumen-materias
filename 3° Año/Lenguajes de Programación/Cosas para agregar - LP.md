@@ -29,7 +29,16 @@ Pregunta fundamental ¿cómo la trato, como afecta? Esta pregunta nos da la info
 - La unidad que invocó a la que la produjo.
 - Un bloque etiquetado fuera de la unidad que la produjo. 
 - La unidad recibida como parámetro.
-El alcance lo define el diseñador.
+El alcance lo define el diseñador. 
+
+Parte 3 implementación
+¿Qué es la sensibilidad histórica?
+Es que la ejecución anterior modifica los resultados de las siguientes ejecuciones, dejando basura. 
+
+Sobre la semántica de retorno de los lenguajes estáticos
+es que cuando se pasan los parámetros formales a los parámetros reales solo puede ser con **out-mode** o **inout-mode**. No con in-mode (anotación)
+
+Recordemos que la estructura del registro de activación (RA) es estático. Mientras que su instancia (IRA) es dinámica, depende de la unidad instanciada.
 
 ---
 
