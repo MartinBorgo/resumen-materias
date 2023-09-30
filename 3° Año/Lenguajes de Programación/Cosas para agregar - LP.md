@@ -1,3 +1,5 @@
+### Unidad 6
+
 El primero parte de 6 unidades, no se menciona sobre los elementos del cuerpo de la unidad.
 El cuerpo de una unidad está conformado por:
 - Declaraciones
@@ -28,3 +30,6 @@ Pregunta fundamental ¿cómo la trato, como afecta? Esta pregunta nos da la info
 - Un bloque etiquetado fuera de la unidad que la produjo. 
 - La unidad recibida como parámetro.
 El alcance lo define el diseñador.
+
+---
+
