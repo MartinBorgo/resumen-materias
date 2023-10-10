@@ -43,3 +43,9 @@ Esto es verdadero, porque si la muestra no es lo suficientemente grande, no pode
 
 ---
 
+## Cosas a tener en cuenta a la hora de redactar
+
+1. Siempre que se esté hablando de calcular, ya sea un intervalo de confianza o un estimador puntual, se debe hablar de ***estimación***, por ejemplo, si lo que se quiere decir es que se está calculando una proporción particular lo haríamos de la siguiente manera: "*Se decidió estimar la proporción de hogares que ...*".
+2. Siempre que se tire un número, ya sea de una proporción o de una distribución de razón se debe especificar de alguna manera que esos datos los calculados en la muestra, por ejemplo: "*La proporción de hogares que poseen cielorraso de esta muestra es de 0,86*".
+3. Siempre aclarar de antemano que es lo que se va a estimar, ponerlo explícitamente por todos lados porque se ve que no saben leer.
+4. Siempre se debe justificar, en lo posible, porque seleccionaste la taza de confiabilidad que seleccionaste, porque son capases de quitarte puntos por eso.
