@@ -17,3 +17,7 @@ Básicamente es un gran hueco que se va diviendo hasta que tenga el menor desper
 El SO se hace dos preguntas:
 1. ¿Entro?
 2. ¿Se puede seguir dividiendo?
+
+Con la segmentación paginada, el ciclo de vida del proceso es más corto y se mantiene la multiprogramación.
+
+Hiperpaginacion = Thrashing
