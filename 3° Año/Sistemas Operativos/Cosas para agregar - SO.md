@@ -8,3 +8,12 @@ Sobre el código compartido, se pregunta si nadie lo usa, si es así cierra y ac
 El DMA accede directo a memoria, además cada disco tiene su propio DMA.
 
 Las particiones dinámicas no tienen fragmentación interna, pero produce fragmentación externa. En paginación hay fragmentación interna. En los dos casos se genera desperdicio.
+
+La fragmentación interna no se puede solucionar
+La fragmentación externa se soluciona con la compactación (solamente se puede unir con el adyacente, tengo entendido)
+
+Sobre el sistema de los asociados
+Básicamente es un gran hueco que se va diviendo hasta que tenga el menor desperdicio, las divisiones se las conoce como socios.
+El SO se hace dos preguntas:
+1. ¿Entro?
+2. ¿Se puede seguir dividiendo?
