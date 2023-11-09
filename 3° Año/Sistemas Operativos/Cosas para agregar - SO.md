@@ -46,10 +46,56 @@ Buffer sencillo -> entra y sale, una a la vez
 Buffer doble (puede ser cuádruple) dos entradas y dos salidas
 Buffer circular entra y sale desde el mismo buffer, cuando es lento el productor pregunta ¿hay espacio? Y el consumidor ¿hay algún carácter?
 
-¿Que diferencias hay entre la caché y buffer? <- tengo anotada esta pregunta xd
+¿Qué diferencias hay entre la caché y buffer? <- tengo anotada esta pregunta xd
 
 El SO solo reconoce bloques
 
 Menos discos, hay más competencia para su uso.
 
 **Archivos**
+Se tienen que respetar las reglas del SO sobre los archivos
+
+Con la extensión, se pregunta ¿hay algún programa compatible? Y muestra que programa puede abrirlo
+
+Directorio = carpeta
+
+Cabecera = i-nodo
+
+El SO se abstrae de la estructura física, crea archivos
+
+El almacenamiento es persistente y confiable, con confiable nos referimos a que se grabó y esto sea lo mismo que se lee
+
+Sistema de nombres lógicos -> Para el usuario, no del SO
+
+Si se abre y cierra, se modifica el archivo, se modifica quien accedió al archivo
+
+El nombre lógico está guardado en el directorio, no en el encabezado. El directorio tiene un número de cabecera y nombre del directorio, este último sirve para ir al número de cabecera.
+
+**Tengo anotado que las capas del sistemas de archivos es importante, es la diapositiva 9**
+
+Un bloque tiene 1 o más sectores
+
+¿Qué es un vínculo? Básicamente que podés acceder desde 2 puertas, un ejemplo de esto son los accesos directos de Windows
+
+El borrado lógico, pero no físico, es como ocultar
+
+**Esta parte es sobre las operaciones sobre archivos**
+
+Si se abren dos archivos iguales, se incrementa el contador de la tabla general de archivos abiertos, recordemos el código compartido.
+
+Si es lectura no va a haber interbloqueo, en lectura/escritura si
+
+La búsqueda de archivos debe ser acotada (expresiones regulares, extensiones, etc. beneficia al acotamiento)
+
+El borrado es lógico, la cabecera no se borra y se puede reasignar para otro archivo
+
+El truncar varía cabecera (la ruta ejemplo), el nombre lógico no
+
+El renombrar, modifica el directorio (registros -> links, carpetas, etc)
+
+Cerrar cambia la tabla general de archivo, si hubo cambio en el archivo para grabar en disco.
+
+**Superbloque importante**
+
+Desfragmentación
+No se mueve memoria virtual ni tabla de particiones, se necesita espacio porque hace copia y pega
