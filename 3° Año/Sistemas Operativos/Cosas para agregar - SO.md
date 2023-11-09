@@ -21,3 +21,35 @@ El SO se hace dos preguntas:
 Con la segmentación paginada, el ciclo de vida del proceso es más corto y se mantiene la multiprogramación.
 
 Hiperpaginacion = Thrashing
+
+**Siguiendo con memoria**
+Sobre el código compartido se pregunta si nadie lo usa, cierra y actualiza en disco.
+
+Dos discos no pueden usar el mismo espacio en memoria, pasa lo mismo en RAID.
+
+Marco = tamaño de la página (porque son de tamaño fijo)
+
+La memoria caché tiene más colisiones por ser más pequeña en tamaño
+
+**Entrada/Salida**
+Para que un proceso use un E/S este tiene que estar liberado, sino se produce un interbloqueo
+
+En la tabla de archivos abiertos, si se usa y se termina, se tiene que actualizar al discos los datos.
+
+Según lo que tengo anotado la imagen de principios de software de E/S es importante toca ver los videos de Berón
+
+Abajo del driver está el controlador, ejemplo debajo del driver del disco sólido está el controlador del disco sólido, los controladores son hardware
+
+Los relojes tienen problemas con los SO distribuidos
+
+Buffer sencillo -> entra y sale, una a la vez
+Buffer doble (puede ser cuádruple) dos entradas y dos salidas
+Buffer circular entra y sale desde el mismo buffer, cuando es lento el productor pregunta ¿hay espacio? Y el consumidor ¿hay algún carácter?
+
+¿Que diferencias hay entre la caché y buffer? <- tengo anotada esta pregunta xd
+
+El SO solo reconoce bloques
+
+Menos discos, hay más competencia para su uso.
+
+**Archivos**
