@@ -38,7 +38,7 @@ En la tabla de archivos abiertos, si se usa y se termina, se tiene que actualiza
 
 Según lo que tengo anotado la imagen de principios de software de E/S es importante toca ver los videos de Berón
 
-Abajo del driver está el controlador, ejemplo debajo del driver del disco sólido está el controlador del disco sólido, los controladores son hardware
+Abajo del driver está el controlador, ejemplo debajo del driver del disco sólido está el controlador del disco sólido, los controladores son hardware.
 
 Los relojes tienen problemas con los SO distribuidos
 
