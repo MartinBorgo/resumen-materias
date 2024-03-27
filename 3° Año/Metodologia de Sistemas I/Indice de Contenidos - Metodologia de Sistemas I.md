@@ -13,14 +13,14 @@
 	1. [[1. Modelos de Ciclo de Vida#Los Modelos de Ciclo de Vida|Los Modelos de Ciclo de Vida]].
 	2. [[1. Modelos de Ciclo de Vida#Proceso de Desarrollo de Software|Procesos de Desarrollo de Software]].
 		1. [[1. Modelos de Ciclo de Vida#Modelos de Procesos de Desarrollo de Software|Modelos de Procesos de Desarrollo de Software]].
-			1. [[2. Tipos de Modelos#Modelo en Cascada|Modelo en Cascada]].
-			2. [[2. Tipos de Modelos#Modelo Incremental o Iterativo|Modelo Iterativo]].
-			3. [[2. Tipos de Modelos#Modelo de Construcción de Prototipos|Modelo Basado en Prototipos]].
-			4. [[2. Tipos de Modelos#Modelo en Espiral|Modelo en Espiral]].
-			5. [[2. Tipos de Modelos#Modelo Basado en Componentes o Reutilización|Modelo Basado en Componentes]].
-			6. [[2. Tipos de Modelos#Modelo Formal|Modelo Formal]].
+			1. [[2. Tipos de Modelos de Ciclo de Vida#Modelo en Cascada|Modelo en Cascada]].
+			2. [[2. Tipos de Modelos de Ciclo de Vida#Modelo Incremental o Iterativo|Modelo Iterativo]].
+			3. [[2. Tipos de Modelos de Ciclo de Vida#Modelo de Construcción de Prototipos|Modelo Basado en Prototipos]].
+			4. [[2. Tipos de Modelos de Ciclo de Vida#Modelo en Espiral|Modelo en Espiral]].
+			5. [[2. Tipos de Modelos de Ciclo de Vida#Modelo Basado en Componentes o Reutilización|Modelo Basado en Componentes]].
+			6. [[2. Tipos de Modelos de Ciclo de Vida#Modelo Formal|Modelo Formal]].
 		2. [[1. Modelos de Ciclo de Vida#Flujo de Procesos|Flujo de Procesos en el Desarrollo]].
-	3. [[2. Tipos de Modelos#Estudio de Factibilidad|Estudios de Factibilidad]].
+	3. [[2. Tipos de Modelos de Ciclo de Vida#Estudio de Factibilidad|Estudios de Factibilidad]].
 - Unidad 3 - Requerimientos de Software e Ingeniería de Requerimientos
 	1. [[1. Requerimientos#Definición|Definición de Requerimiento]].
 	2. [[1. Requerimientos#Ingeniería de Requerimientos (IR)|Introducción a la Ingeniería de Requerimientos]].
