@@ -35,7 +35,10 @@ $$
 $$
 
 >[!note] Nota
->El mismo procedimiento se debe aplicar para resolver la cuota de redondeo simétrico, con la diferencia que en este caso se debe aplicar si propia inecuación.
+>El mismo procedimiento se debe aplicar para resolver la cuota de redondeo simétrico, con la diferencia que en este caso se debe aplicar si propia inecuación. En el caso del redondeo simétrico la "fórmula", aplicada al caso anterior es: 
+>$$
+|\frac{\pi - x}{\pi}| \leq 10^{-4}
+$$
 
 #### Ejercicio 2
 
