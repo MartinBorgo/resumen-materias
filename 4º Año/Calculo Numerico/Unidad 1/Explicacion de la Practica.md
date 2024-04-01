@@ -37,7 +37,7 @@ $$
 >[!note] Nota
 >El mismo procedimiento se debe aplicar para resolver la cuota de redondeo simétrico, con la diferencia que en este caso se debe aplicar si propia inecuación. En el caso del redondeo simétrico la "fórmula", aplicada al caso anterior es: 
 >$$
-|\frac{\pi - x}{\pi}| \leq 10^{-4}
+|\frac{\pi - x}{\pi}| \leq 5 . 10^{-4}
 $$
 
 #### Ejercicio 2
@@ -103,6 +103,10 @@ $$ t = 2 \rightarrow 2.98451 \leq p^* \leq 3.29867 $$
 $$ t = 3 \rightarrow 3.12588 \leq p^* \leq 3.15730 $$
 Lo que se hace ahora es evaluar si el valor de $p^*$, en este caso $3.1$, está incluido en las cotas, y como podemos ver el valor de $p^*$ entra en la cota de $t = 1$ y $t = 2$, pero no en la de $t = 3$, ya que $3.1$ es menor que $3.12$. En ese caso $p^*$ aproxima a $p$, con 2 cifras significativas. Esto es así, ya que siempre se toma la cota con el $t$ más alto.
 
+La forma general la podemos tomar de la siguiente manera:
+$$
+p -5 \cdot 10^{-t} \cdot p \leq p^* \leq p + 5 \cdot 10^{-t} \cdot p
+$$
 #### Ejercicio 4
 
 Efectúe los siguientes cálculos de forma exacta, usando aritmética de redondeo truncado de tres dígitos y usando aritmética de redondeo simétrico de tres dígitos. Luego determine las pérdidas de dígitos significativos suponiendo que los números dados son exactos.
