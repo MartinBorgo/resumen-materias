@@ -20,7 +20,7 @@ multiplico por $-1$ para cambiar el signo de $x$:
 $$
 10^{-3} \cdot \pi \geq -\pi + x \geq -10^{-3} \cdot \pi
 $$
-Multiplico una vez más por $-1$ para que queden ordenados de menor a mayor:
+Cambiamos el orden de las inecuaciones, pero seguimos manteniendo la igualdad:
 $$
 -10^{-3} \cdot \pi \leq -\pi + x \leq 10^{-3} \cdot \pi
 $$
