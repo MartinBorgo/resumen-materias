@@ -1,5 +1,3 @@
-# Notas
-
 ## Sistema ≠ conglomerado
 
 ## Definición de sistema

@@ -1,5 +1,3 @@
-# Notas
-
 ## Teoría reduccionista
 Enfoque metodológico fundamentado en la especialización  
 
