@@ -13,9 +13,9 @@ Trata el problema como un todo, dentro de una perspectiva más amplia, integral 
 | Modifica una variable                                     | Modifica varias                                             |
 | Valida hechos con pruebas dentro del cuerpo de una teoría | Valida hechos a través de comparar el sistema con un modelo |
 
-Pasos del análisis reduccionista y del estudio sistémico:  
-1. Reducción -> Análisis -> Síntesis  
-2. Mirar supersistema -> Explicar conducta, propiedades o funciones -> Explicar conducta, propiedades o función de forma analítica  
+## Pasos del análisis reduccionista y del estudio sistémico  
+1. **Reducción -> Análisis -> Síntesis**  
+2. **Mirar supersistema -> Explicar conducta, propiedades o funciones -> Explicar conducta, propiedades o función de forma analítica**  
 
 ### ¿Qué busca la teoría reduccionista?
 1. Mejoramiento  
@@ -36,16 +36,16 @@ Pasos del análisis reduccionista y del estudio sistémico:
 
 ## Teoría General de Sistemas (T.G.S.)
 - Los objetos son y se tratan como sistemas  
-- Busca obtener objetos generalizados (Partes) que se comunican (interacción) para analizar un fenómeno (análisis)  
+- Busca obtener objetos generalizados (partes) que se comunican (interacción) para analizar un fenómeno (análisis)  
 
 ### ¿Qué dijo Ludwig Von Bertalanffy sobre la TGS? Antecedentes
-- Debería constituirse en un mecanismo de integración de cs. naturales y cs. sociales. Ser un instrumento básico para la preparación de científicos  
+- Debería constituirse en un mecanismo de integración de ciencias naturales y ciencias sociales. Ser un instrumento básico para la preparación de científicos  
 
 ### ¿Qué formaron Bertalanffy, Kenneth y Rapoport?
-Formaron la sociedad para la investigación general de sistemas  
+Formaron la **Sociedad para la Investigación General de Sistemas**  
 
 ### ¿Para qué se creó la TGS?
-- Isomorfismo de conceptos, leyes y modelos en varios campos. Facilitar transferencias  
+- Isomorfismo de conceptos, leyes y modelos en varios campos. Facilitar transferencias.  
 1. Promover y desarrollar modelos teóricos  
 2. Reducir la duplicación de los esfuerzos teóricos  
 3. Promover la unidad  
@@ -55,46 +55,29 @@ Formaron la sociedad para la investigación general de sistemas
 2. Ordenar jerárquicamente las disciplinas (Menor confianza, mayor ambición)  
 
 #### Orden jerárquico de las disciplinas según Kenneth E. Boulding
-9. Trascendental  
-8. Organización social  
-7. Humano  
-6. Animal  
-5. Genético-Social  
-4. Sistemas abiertos  
-3. Cibernética  
-2. Mecanismos de relojería  
 1. Estructuras  
+2. Mecanismos de relojería  
+3. Cibernética  
+4. Sistemas abiertos  
+5. Genético-Social  
+6. Animal  
+7. Humano  
+8. Organización social  
+9. Trascendental  
 
 De predictible a probabilístico según su complejidad  
 
 #### Equivalencia sencilla de las disciplinas según Kenneth E. Boulding
 
-##### Trascendental en la TGS se refiere a
-Lo que queda por clasificar  
-
-##### Organización social en la TGS se refiere a
-Grupo de personas  
-
-##### Humano en la TGS se refiere a
-Racionalizar  
-
-##### Animal en la TGS se refiere a
-Traslación  
-
-##### Genético-Social en la TGS se refiere a
-División de tareas  
-
-##### Sistemas abiertos en la TGS se refiere a
-Vida  
-
-##### Cibernética en la TGS se refiere a
-Autorregulación  
-
-##### Mecanismos de relojería en la TGS se refiere a
-Primer dinamismo  
-
-##### Estructuras en la TGS se refiere a
-Estático  
+1. **Trascendental**: Lo que queda por clasificar  
+2. **Organización social**: Grupo de personas  
+3. **Humano**: Racionalizar  
+4. **Animal**: Traslación  
+5. **Genético-Social**: División de tareas  
+6. **Sistemas abiertos**: Vida  
+7. **Cibernética**: Autorregulación  
+8. **Mecanismos de relojería**: Primer dinamismo  
+9. **Estructuras**: Estático  
 
 ### Tendencias que buscan la aplicación práctica de la TGS
 1. Cibernética  
@@ -123,7 +106,7 @@ Busca producir teorías para aplicaciones empíricas.
 1. Terminología general  
 2. Conjunto de leyes generales  
 3. Formalización matemática  
-- Integración de cs. nat. y cs. soc. (Bertalanffy)  
+- Integración de ciencias naturales y ciencias sociales (Bertalanffy)  
 
 #### Define isomorfismo en el contexto de la T.G.S. Ejemplifica.
 Propiedad por la cual los sistemas comparten aspectos similares.  
@@ -133,7 +116,7 @@ Propiedad por la cual los sistemas comparten aspectos similares.
 2. Jerárquico dependiendo de su complejidad. Abstracción según individuos.  
 
 #### Indica las características de la T.G.S. según los autores
-![[Características TGS.png]]  
+**¡[[Características TGS.png]]**  
 
 #### Define mejoramiento de sistema y diseño de sistema.
 - **Mejoramiento**: Modificar las partes para llegar al objetivo  

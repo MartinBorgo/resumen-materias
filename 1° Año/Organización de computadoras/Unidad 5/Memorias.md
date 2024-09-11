@@ -2,17 +2,17 @@
 Es una unidad que almacena información, como programas y datos.
 
 ### ¿Cómo se clasifican las memorias?
-Según cuan cerca estén del procesador.  
-1. Registros  
-2. Memorias cache L1, L2, L3...  
-3. DRAM (Acceso aleatorio)  
-4. HDD, SSD, NVME.  
-5. Extraíbles  
-6. Cintas magnéticas, almacenamiento en red  
+Según cuán cerca estén del procesador.  
+1. **Registros**  
+2. **Memorias caché L1, L2, L3**  
+3. **DRAM (Acceso aleatorio)**  
+4. **HDD, SSD, NVME**  
+5. **Extraíbles**  
+6. **Cintas magnéticas, almacenamiento en red**  
 
 #### Características de la RAM y sus implementaciones
-1. Lectura-escritura  
-2. Volátiles  
+1. **Lectura-escritura**  
+2. **Volátiles**  
 
 **Tipos:**  
 1. **Dinámicas (DRAM)**  
@@ -25,37 +25,37 @@ Según cuan cerca estén del procesador.
    3. Compleja, rápida y cara  
    4. Memoria caché  
 
-Capacidad DRAM > SRAM  
-Velocidad SRAM > DRAM  
+**Capacidad DRAM > SRAM**  
+**Velocidad SRAM > DRAM**
 
 ## Discos magnéticos (Estructura)
 - Plato metálico con capa de material magnetizable  
-1. Plato (Superficie)  
-2. Pistas concéntricas (Surcos)  
-   1. Sectores  
-   2. Cabezal  
-   3. Cilindro (Pistas concéntricas de cada cara de un plato)  
-   4. Cluster (Agrupación de sectores mínima)  
+1. **Plato (Superficie)**  
+2. **Pistas concéntricas (Surcos)**  
+   1. **Sectores**  
+   2. **Cabezal**  
+   3. **Cilindro** (Pistas concéntricas de cada cara de un plato)  
+   4. **Cluster** (Agrupación mínima de sectores)  
 
 ### Cálculo de capacidad de almacenamiento de un HDD
-Capacidad = Sectores por pista x Tamaño sector (Bytes) x Pistas (cilindros) por cara x Nro de caras  
+**Capacidad** = Sectores por pista x Tamaño sector (Bytes) x Pistas por cara x Número de caras  
 
 ## SSD
 - Memorias semiconductoras (flash)  
 
 ### SSD vs HDD
 Ventajas de los SSD:  
-1. Velocidad y rendimiento de E/S  
-2. Durabilidad  
-3. Menor consumo aunque su costo sea mayor  
-4. Menor ruido y calor  
+1. **Velocidad y rendimiento**  
+2. **Durabilidad**  
+3. **Menor consumo** aunque su costo sea mayor  
+4. **Menor ruido y calor**
 
 ## Discos ópticos
 - Bits leídos con láser incidente reflejado  
-- Tecnología de CD-ROM y DVD-ROM  
+- Tecnología de **CD-ROM y DVD-ROM**
 
 ### Cálculo de capacidad de un disco óptico
-Ejemplo: CD-ROM. 270k sectores x 2kb datos = 527 MB  
+**Ejemplo**: CD-ROM. 270k sectores x 2KB datos = 527 MB  
 
 ## Cinta magnética
 1. Listón de plástico con óxido de hierro y otra capa magnética  
@@ -64,25 +64,27 @@ Ejemplo: CD-ROM. 270k sectores x 2kb datos = 527 MB
 
 ## Raids (Beneficios)
 RAID desde el 1 al 6  
-1. Integridad  
-2. Tolerancia a fallos  
-3. Rendimiento  
-4. Capacidad  
-5. Pueden soportar el uso de uno o más discos de reserva (hot spare)  
+1. **Integridad**  
+2. **Tolerancia a fallos**  
+3. **Rendimiento**  
+4. **Capacidad**  
+5. **Discos de reserva (hot spare)**  
 
 ### Raid 0
-Se distribuye partes de la información en ambos discos.  
-+ Velocidad y - Respaldo  
+Distribuye partes de la información en ambos discos.  
+- **Velocidad**  
+- **Sin respaldo**  
 
 ### Raid 1
-Crea copias en ambos discos  
-+ Respaldo y - Velocidad  
+Crea copias en ambos discos.  
++ **Respaldo**  
+- **Velocidad**  
 
 ### Raid 5
 Mínimo 3 discos.  
 
 ### Raid 6
-Como el RAID 5 pero con 1 copia más en cada disco  
+Como el RAID 5 pero con una copia extra de paridad.  
 
 ### Raid 10
-RAID 1 + 0 para más seguridad, usado para bases de datos  
+RAID 1 + 0 para mayor seguridad, usado en bases de datos.

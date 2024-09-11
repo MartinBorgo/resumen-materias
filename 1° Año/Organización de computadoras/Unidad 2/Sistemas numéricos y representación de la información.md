@@ -15,14 +15,14 @@
 1. Valor relativo  
 2. Base diez  
 3. 0, 1, 2, 3, 4, 5, 6, 7, 8, 9  
-4. La base se representa 10  
-5. Cada dígito de la izquierda vale diez veces más que el de la derecha  
+4. La base se representa como 10  
+5. Cada dígito a la izquierda vale diez veces más que el de la derecha  
 
 ### Sistema binario
 1. Valor relativo  
 2. Base dos  
 3. 0, 1  
-4. La base se representa 10  
+4. La base se representa como 10  
 5. Cada dígito vale dos veces más que el de la derecha  
 
 ### Sistema octal y hexadecimal
@@ -30,34 +30,36 @@
 1. Valor relativo  
 2. Base 8  
 3. 0,1,2,3,4,5,6,7  
-4. La base se representa 10  
+4. La base se representa como 10  
 5. Cada dígito vale 8 veces más que el de la derecha  
 
 **Hexadecimal**:  
 1. Valor relativo  
 2. Base 16  
 3. 0,1,2,3,4,5,6,7,8,9,A,B,C,D,E,F  
-4. La base se representa 10  
+4. La base se representa como 10  
 5. Cada dígito vale 16 veces más que el de la derecha  
 
 ## Conversión entre sistemas
 ### Binario a decimal
-Se descompone el número binario en las sucesivas potencias de la base y se calcula de forma directa  
+Se descompone el número binario en las sucesivas potencias de la base y se calcula de forma directa. Ejemplo:  
+1 1 0 1 = (1 × 2^3) + (1 × 2^2) + (0 × 2^1) + (1 × 2^0) = 13
 
 ### Decimal a binario
-Se realizan sucesivas divisiones del número decimal por 2 hasta llegar al último cociente entero. Luego el número binario se escribe desde el último cociente y todos los restos de las divisiones, del último al primero  
+Se realizan divisiones sucesivas del número decimal por 2 hasta obtener el último cociente entero. El número binario se forma a partir del último cociente y los restos de las divisiones.
 
 ### Hexadecimal a decimal
-Se descompone el número hexadecimal en las sucesivas potencias de la base y se calcula de forma directa  
+Se descompone el número hexadecimal en potencias de la base 16 y se calcula de forma directa. Ejemplo:  
+A4B = (10 × 16^2) + (4 × 16^1) + (11 × 16^0) = 2635
 
 ### Decimal a hexadecimal
-El mismo sistema que el decimal a binario, salvo que la división es con 16 y los restos y cociente se transforman a sistema hexadecimal  
+El mismo proceso que el decimal a binario, pero utilizando la base 16. Los restos y cocientes se convierten a hexadecimal.
 
 ### Binario a hexadecimal
-Se separa el número binario en grupos de cuatro dígitos comenzando desde la derecha y se busca el número hexadecimal que le corresponde. Si al de la izquierda le faltan dígitos se le agregan ceros a la izquierda  
+Se agrupan los dígitos binarios en bloques de 4, comenzando desde la derecha, y cada grupo se convierte a su equivalente hexadecimal.
 
 ### Hexadecimal a binario
-Se busca el número binario de 4 dígitos correspondiente a cada dígito hexadecimal  
+Se convierte cada dígito hexadecimal en su equivalente binario de 4 dígitos.
 
 ## Operaciones aritméticas
 ### Suma y resta binaria
@@ -68,59 +70,36 @@ Se busca el número binario de 4 dígitos correspondiente a cada dígito hexadec
 1 - 1 = 0  
 1 - 0 = 1  
 0 - 0 = 0  
-0 - 1 = 1 pidiendo 1 al anterior  
+0 - 1 = 1 pidiendo 1 al anterior
 
 ### Suma y resta hexadecimal
-1. Se resta igual que cualquier otro sistema  
-2. Se crea una tabla 16x16 con todos los números hexadecimales y sus respectivas sumas en intersecciones  
+Se utiliza una tabla de 16x16 para sumar o restar números hexadecimales. 
 
 ## Números signados
-- Magnitud y signo  
+Representación de magnitud y signo, donde el bit más significativo indica el signo (0 para positivo, 1 para negativo).
 
 ## Números de punto fijo
-1. Todos los números a representar tienen la misma cantidad de dígitos  
-2. La coma decimal está en el mismo lugar  
-
-- Rango:  
-  - Diferencia entre el mayor y el menor que expresa  
-- Precisión:  
-  - Distancia entre dos números consecutivos  
-- Error:  
-  - La mitad entre la distancia de dos números consecutivos  
+1. Todos los números tienen la misma cantidad de dígitos.  
+2. La coma decimal está en el mismo lugar para todos.  
+- **Rango:** Diferencia entre el mayor y el menor número que puede representarse.  
+- **Precisión:** Distancia entre dos números consecutivos.  
+- **Error:** Mitad de la distancia entre dos números consecutivos.  
 
 ## Números de punto flotante
-1. Amplio rango de números con pocos dígitos binarios  
-
-- Rango:  
-  - Exponente  
-- Precisión:  
-  - Mantisa  
-- Error:  
-  - Distancia entre dos números consecutivos  
-
-## ¿En base a qué estándar están definidos los números de punto flotante?
-- IEE 754 32 bits o 64  
-
-## Diferencia entre notación en coma flotante y fija
-1. Velocidad (Mayor en fija)  
-2. Rango (Mayor en flotante)  
+Permiten representar un amplio rango de números con menos dígitos binarios.  
+- **Rango:** Determinado por el exponente.  
+- **Precisión:** Determinada por la mantisa.  
+- **Error:** Distancia entre dos números consecutivos.  
 
 ## Códigos
 ### Código BCD
-- Datos numéricos con 4 dígitos binarios  
+Cada dígito decimal se representa con 4 dígitos binarios. Facilita la conversión entre decimal y binario sin errores de conversión.
 
-### Alfanuméricos
-#### Código EBCDIC
-- Extended Binary Coded Decimal Interchange  
-- 4 Numéricos y 4 de zona  
+### Códigos alfanuméricos
+**EBCDIC**: Código binario extendido decimal intercambiable. Usa 8 bits para representar caracteres.  
+**ASCII**: Utiliza 8 bits para representar caracteres.  
+**Unicode**: Sistema de codificación universal para representar caracteres de múltiples alfabetos.
 
-#### Código ASCII 8
-- Secuencia de 8 bits  
-- American standard code for information interchange  
+## Relación entre bases de sistemas numéricos
+Los sistemas decimal, binario, octal y hexadecimal son sistemas posicionales de valor relativo. La diferencia radica en la base utilizada para agrupar los valores.
 
-#### Código unicode
-- Universalidad, uniformidad y unicidad  
-- 4 grupos de 4 bits  
-
-## ¿Qué relación existe entre las bases del sistema decimal, binario, octal y hexadecimal?
-- Todos son sistemas de valor relativo y base 10  

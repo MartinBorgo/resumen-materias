@@ -1,162 +1,152 @@
 ## La toma de decisiones se puede tomar de dos formas
-1. Intuitiva  
-2. Racional  
+1. **Intuitiva**  
+2. **Racional**
 
 ### Toma de decisiones intuitiva
-En base a la experiencia anterior del que decide y sus expectativas. Mayor riesgo  
+- Se basa en la experiencia anterior del que decide y sus expectativas.
+- Mayor riesgo.
 
 ### Toma de decisiones racional
-Se basa en información disponible debidamente evaluada por la persona que decide. Menos riesgo  
+- Se basa en la información disponible debidamente evaluada por la persona que decide.
+- Menos riesgo.
 
 #### ¿Qué se necesita para tomar decisiones en forma racional?
-Las características de la información útil  
+- Las características de la información útil.
 
 ## Sistema de soporte a las decisiones
-- Sistema para servir de apoyo a la toma de decisiones  
-- Decisión basada en estimaciones de valores de esas alternativas  
+- Sistema diseñado para servir de apoyo a la toma de decisiones.
+- Las decisiones están basadas en estimaciones de valores de las alternativas.
 
 ## Archivo
-Conjunto finito organizado de registros similares que se tratan como una unidad  
+- Conjunto finito organizado de registros similares que se tratan como una unidad.
 
 ## Campo de un archivo
-- Conjunto de caracteres tratado como una unidad de datos  
-- Elemento de dato básico  
-- Se caracteriza por su longitud y su tipo  
+- Conjunto de caracteres tratado como una unidad de datos.
+- Elemento básico de datos.
+- Se caracteriza por su longitud y tipo.
 
 ## Registro relacionado a un archivo
-- Conjunto de campos relacionados por un atributo  
-- Puede ser tratado como unidad  
+- Conjunto de campos relacionados por un atributo.
+- Puede ser tratado como una unidad.
 
 ## Campo clave
-- Campo de identificación que contiene cada registro lógico  
-- Se utiliza para acceder al registro o para clasificar en un orden determinado  
+- Campo de identificación que contiene cada registro lógico.
+- Se utiliza para acceder al registro o clasificarlo en un orden determinado.
 
 ## Claves múltiples
-- Campos múltiples para acceder al mismo registro  
+- Uso de varios campos para acceder al mismo registro.
 
 ## Lenguaje
-Conjunto de caracteres, convenciones y reglas para comunicar información.  
-1. Pragmática (Práctica)  
-2. Semántica (Significado)  
-3. Sintaxis (Estructura)  
+- Conjunto de caracteres, convenciones y reglas para comunicar información.  
+  1. **Pragmática** (Práctica)  
+  2. **Semántica** (Significado)  
+  3. **Sintaxis** (Estructura)  
 
 ## Lenguaje de programación
-Lenguaje interpretables y ejecutables por el computador  
+- Lenguajes interpretables y ejecutables por el computador.
 
 ## Lenguaje absoluto
-Depende del computador. También llamados lenguaje máquina u objeto  
+- Depende del computador, también llamado lenguaje máquina u objeto.
 
 ## Lenguaje simbólico
-Lenguaje cuyas instrucciones tienen correspondencia con las instrucciones del lenguaje máquina. Deben ser traducidos al lenguaje máquina antes de ser ejecutables.
+- Lenguaje cuyas instrucciones tienen correspondencia con el lenguaje máquina y deben ser traducidos antes de ser ejecutados.
 
 ### Lenguajes de bajo nivel
-Lenguajes cuyas instrucciones tienen correspondencia unívoca con las instrucciones del lenguaje absoluto.  
-Usan programas ensambladores para traducir.  
-Únicos para cada procesador.  
+- Correspondencia unívoca con las instrucciones del lenguaje absoluto.
+- Utilizan ensambladores y son específicos para cada procesador.
 
 ### Lenguajes de alto nivel
-Lenguaje para los programadores. Sentencias equivalentes a varias instrucciones de bajo nivel.  
-Independientes de la máquina.  
+- Independientes de la máquina y más cercanos a los programadores. Cada sentencia equivale a varias instrucciones de bajo nivel.
 
 ## Instrucción
-Especificación de una operación identificando operandos y direcciones.  
+- Especifica una operación y los operandos involucrados.
 
 ## Programa
-1. Secuencia lógica y completa de instrucciones para dirigir a un computador en la ejecución de un problema  
-2. Secuencia lógica de instrucciones que un computador almacena, interpreta y ejecuta.  
+1. Secuencia lógica de instrucciones que dirige al computador para resolver un problema.
+2. Conjunto de instrucciones que un computador almacena, interpreta y ejecuta.
 
-## Sistema. Definición general y definición en programación
-Conjunto de elementos interrelacionados destinados a cumplir un objetivo total.  
-En programación, un conjunto de programas que se interrelacionan a fin de conseguir un objetivo.  
-Un sistema resuelve un conjunto de problemas, o apunta a resolver una serie de problemas particulares.  
+## Sistema
+- Conjunto de elementos interrelacionados que cumplen un objetivo.  
+  En programación, un conjunto de programas relacionados para cumplir un objetivo común.
 
 ## Programas a medida y enlatados
-Construidos por o para un individuo u organización específicos.  
-Puede ser un problema inédito o no tratado.  
-Los enlatados se los concibe en forma estándar, se orientan a aplicaciones específicas de los usuarios.  
+- **A medida**: Diseñados para individuos u organizaciones específicas.
+- **Enlatados**: Aplicaciones estándar para usuarios comunes.
 
 ## Etapas del desarrollo de un sistema
-- Definir el problema  
-- Análisis del sistema  
-- Diseño de la solución  
-- Programación  
-- Prueba  
-- Implementación  
-- Documentación  
+1. **Definir el problema**  
+2. **Análisis del sistema**  
+3. **Diseño de la solución**  
+4. **Programación**  
+5. **Prueba**  
+6. **Implementación**  
+7. **Documentación**
 
 ## Definir el problema
-Definir claramente las necesidades observando la utilización del sistema actual de procesamiento de información  
+- Clarificar las necesidades observando el sistema actual.
 
 ## Análisis del sistema
-Estudiar en profundidad el funcionamiento actual del sistema, sus límites, componentes y relaciones. Se identifican datos utilizados, su manejo y la información a obtener  
+- Estudiar el sistema actual, identificando sus componentes, límites y relaciones.
 
 ## Diseño de la solución
-De acuerdo a la información obtenida y a los objetivos, se usan modelos lógicos para la solución. Si existen soluciones equifinales se evalúan y elige una de ellas  
+- Utilizar modelos lógicos y evaluar alternativas para elegir la mejor solución.
 
 ## Programación
-Se vuelca el modelo construido a uno o varios programas de computación. Se desarrollan en algún lenguaje de programación, analizando varios factores como el tipo de equipamiento, complejidad de la solución y usuarios que la operarán  
+- Convertir el diseño en programas de computación usando un lenguaje adecuado.
 
 ## Prueba
-Funcionamiento del sistema, usando datos ficticios para detectar errores. Si existe error, implica revisar la solución diseñada o corregir la información obtenida durante el análisis.  
+- Ejecutar el sistema con datos ficticios para detectar errores.
 
 ## Implementación
-Puesta en marcha de manera gradual con un posterior seguimiento para determinar su correcto funcionamiento. Se adquiere el equipo y elementos necesarios para su funcionamiento.  
+- Poner en marcha el sistema, adquiriendo los equipos necesarios y haciendo seguimiento.
 
 ## Documentación
-Para facilitar la modificación del sistema posteriormente. Fundamentalmente por si las modificaciones deben realizarlas otras personas.  
+- Documentar todo el proceso para facilitar futuras modificaciones.
 
 ## Utilitarios de base
-- Editor  
-- Intérprete  
-- Compilador  
-- Sistemas operativos  
+- **Editor**, **Intérprete**, **Compilador**, **Sistemas operativos**.
 
 ## Sistema lógico de base
-Relativo al conjunto de programas y rutinas diseñadas para permitir la utilización racional y eficiente de los recursos del soporte físico de un sistema de procesamiento de datos.  
+- Conjunto de programas diseñados para un uso eficiente de los recursos físicos de un sistema.
 
 ## Intérpretes y compiladores
-Denominados traductores, se utilizan para pasar de lenguaje de alto nivel a bajo nivel y viceversa.  
+- Traductores que convierten programas de alto nivel a bajo nivel.
 
 ## Compilador
-Programa que traduce el programa fuente a programa objeto.  
-Solo efectúa la traducción, no lo ejecuta.  
+- Traduce el programa fuente a código máquina sin ejecutarlo inmediatamente.
 
 ## Intérprete
-Traduce cada instrucción o sentencia en lenguaje fuente a código máquina e inmediatamente se ejecuta.  
-Traduce una y la ejecuta, así secuencialmente con todas.  
+- Traduce y ejecuta cada instrucción de forma secuencial.
 
 ## Compilador vs Intérprete
 
-|                      | Compilador                                        | Intérprete                                                                          |
-| -------------------- | ------------------------------------------------- | ----------------------------------------------------------------------------------- |
-| Edición              | No tiene editor, no corrige. Salvo algunos nuevos | Corrige errores de sintaxis                                                         |
-| Ejecución            | Si se modifica el código, se recompila            | Se puede modificar y probar. Una nueva corrida del programa debe ser reinterpretada |
-| Ocupación de memoria | Solo se carga el código objeto                    | Carga el programa más el código fuente                                              |
-| Rapidez              | Solo ejecutar el código máquina                   | Se traduce cada vez que se ejecuta                                                  |
+|                       | **Compilador**                                   | **Intérprete**                                                                         |
+|-----------------------|--------------------------------------------------|----------------------------------------------------------------------------------------|
+| **Edición**           | No corrige errores                               | Corrige errores de sintaxis                                                            |
+| **Ejecución**         | Recompilación tras cada modificación             | Modificación y prueba inmediata                                                        |
+| **Ocupación de memoria** | Solo carga el código objeto                     | Carga tanto el código fuente como el intérprete                                        |
+| **Rapidez**           | Ejecuta el código máquina directamente           | Traducción y ejecución cada vez que se corre                                           |
 
 ## Lenguajes de programación importantes del siglo 20
-FORTRAN (1954). Traductor de fórmulas, compilado. Uso científico.  
-COBOL (1959). Compilado, manejo de estructuras de datos. Lenguaje orientado hacia negocios comunes.  
-Pascal (1971). Similar a C.  
-C (1972). Alto nivel para programación de bajo nivel. Usado para programar Linux, Unix.  
-BASIC (1985). Intérprete y compilador, propósito general.  
+- **FORTRAN** (1954): Uso científico.
+- **COBOL** (1959): Orientado a negocios.
+- **Pascal** (1971): Similar a C.
+- **C** (1972): Programación de sistemas como Unix y Linux.
+- **BASIC** (1985): Propósito general.
 
 ## Editor
-Se utiliza para crear, ver y modificar programa fuente.  
-Los lenguajes que trabajan con intérpretes tienen su propio editor.  
+- Se utiliza para crear, ver y modificar el código fuente.
 
 ## Sistemas operativos
-Programa o conjunto de programas que permiten el mejor aprovechamiento de los recursos del sistema, base de escritura de programas de aplicación.  
-Componente del soporte lógico con un conjunto integrado de instrucciones y rutinas que regulan y controlan la ejecución de programas en un computador y supervisan la operación y explotación del mismo.  
+- Programa o conjunto de programas que optimizan el uso de los recursos del sistema y controlan la ejecución de otros programas.
 
 ## Programa supervisor
-Clave del sistema operativo.  
-Este se carga en la RAM mientras la computadora esté en uso, controla el funcionamiento de la misma.  
+- Parte del sistema operativo que se carga en la RAM y controla el funcionamiento del computador.
 
-## Funciones específicas del programa supervisor
-1. Control de tareas  
-2. Calendarización del sistema. Balancear los requisitos de entrada y salida y de proceso  
-3. Manejar las interrupciones del sistema cuando se usa multiprogramación  
-4. Controlar el estado del sistema  
-5. Inventario de tareas realizadas  
-6. Seguridad del sistema  
+### Funciones específicas del programa supervisor:
+1. Control de tareas.  
+2. Calendarización.  
+3. Manejo de interrupciones.  
+4. Control de estado del sistema.  
+5. Inventario de tareas.  
+6. Seguridad del sistema.

@@ -4,7 +4,7 @@
 3. Metodología de análisis y diseño  
 
 ## Ciclo de vida de una aplicación
-Etapas de un sistema de información.
+Etapas de un sistema de información:
 1. Definición  
 2. Incorporación  
 3. Operación  
@@ -17,21 +17,20 @@ Etapas de un sistema de información.
 - Cálculo costo-beneficio y plan global del trabajo  
 - La participación del usuario es trascendente  
 
-### Ciclo de vida. Incorporación.
+### Ciclo de vida. Incorporación
 Vida útil del sistema:
 - Organización y planeamiento  
-- Ejecución y control  
+- Ejecución y control:  
    - Análisis y diseño  
    - Construcción y prueba  
    - Puesta en marcha  
 - Finalización  
 
 ### Ciclo de vida. Operación
-Mantenimiento.  
-Ampliación y corrección.  
+Mantenimiento, ampliación y corrección.  
 
 ### Ciclo de vida. Abandono
-Sistema dejado de lado.  
+El sistema es dejado de lado.  
 
 ## Metodologías de desarrollo tradicionales y otras
 1. Etapas  
@@ -47,11 +46,11 @@ Sistema dejado de lado.
 4. Codificación  
 5. Prueba  
 6. Operación  
-Desventajas: Documentación previa. Contacto con el usuario solo al inicio y final.  
-Mantenimiento previo a la operación.  
+
+**Desventajas**: Documentación previa. Contacto con el usuario solo al inicio y final. Mantenimiento previo a la operación.
 
 ### Modelo en cascada
-Facilitar detección temprana de errores.
+Facilita la detección temprana de errores:
 1. Definición de requerimientos  
 2. Diseño del sistema y del software  
 3. Implementación y prueba de unidad  
@@ -64,24 +63,24 @@ Fases de manera continua y cíclica:
 2. Análisis del riesgo  
 3. Desarrollar y probar  
 4. Planificación  
+
 Reducción de riesgos de modificaciones. Incorpora paralelismo y modularidad.  
 
 ## Diferencia entre modelo tradicional y ágil
-Existe una iteración en el ágil.  
-Tienen los siguientes principios:
+En el modelo ágil hay iteración continua. Principios:
 1. Satisfacción del cliente  
-2. Reflexionar a mejora continua  
+2. Reflexionar para mejora continua  
 3. Equipos autoorganizados  
-4. Simples  
-5. Colaboradores  
+4. Simplicidad  
+5. Colaboración  
 6. Comunicación cara a cara  
-7. Cambios de requerimientos  
-8. Entrega de producto frecuente  
+7. Cambios en requerimientos  
+8. Entrega frecuente de productos  
 
 ## Metodología de análisis y diseño
-Proceso:
+Proceso:  
 - Describir la técnica para obtener el producto  
-Herramienta de documentación:
+Herramienta de documentación:  
 - Elemento de comunicación  
 
 ### Actores de la documentación como elemento de comunicación
@@ -96,49 +95,40 @@ Herramienta de documentación:
 
 #### Metodología estructurada
 El análisis se realiza desde dos visiones:
-- Procesos  
-- Datos  
+1. Procesos  
+2. Datos  
 
 ##### Visión desde los procesos
-Filosofía "top-down":  
-De un diagrama general a una descomposición.  
-Herramientas como el diagrama de flujo.  
+Filosofía "top-down": De un diagrama general a una descomposición.  
+Se usan herramientas como el diagrama de flujo de datos (DFD).
 
-###### Convenciones usadas en los DFD
-![[DFD Elementos explicados.png]]
-
-###### En un DFD el diagrama que representa con entidades externas de entrada y salida y un proceso principal es el:
-Diagrama de contexto  
+###### En un DFD, el diagrama que representa entidades externas de entrada y salida y un proceso principal es el:
+**Diagrama de contexto**.
 
 ##### Visión desde los datos
 Formulación de la estructura lógica de datos.  
-Normalización -> Diagrama de Entidad Relación (DER)  
+Normalización -> Diagrama de Entidad Relación (DER).
 
-###### Componentes de un DER
-![[DER Elementos explicados.png]]
-
-##### Metodologías orientadas a objetos (ADDO)
+#### Metodologías orientadas a objetos (ADDO)
 Une datos y procesos en objetos.  
 
-###### Conceptos orientados a objetos. Objetos
-- Cosas relevantes para el sistema  
-- Describen entidades como objetos  
-- Objetos con estructuras de datos y comportamientos característicos  
+##### Conceptos orientados a objetos: Objetos
+- Cosas relevantes para el sistema.  
+- Describen entidades como objetos con estructuras de datos y comportamientos característicos.  
 
-###### Conceptos orientados a objetos. Clases
-- Grupo de objetos con atributos compartidos  
+##### Conceptos orientados a objetos: Clases
+- Grupo de objetos con atributos compartidos.  
 
-###### Herramientas utilizadas en ADDO
+##### Herramientas utilizadas en ADDO
 Lenguaje de Modelado Unificado (UML) basado en notación gráfica que permite:
 1. Especificar  
 2. Construir  
 3. Visualizar  
 4. Documentar  
 
-###### UML creada por unificación de métodos de...
-Booch y Rumbaugh (OMT) y Jacobson (OOSE)  
+**UML** fue creado por la unificación de métodos de Booch y Rumbaugh (OMT) y Jacobson (OOSE).  
 
-###### Diagramas UML
-- De estructura  
-- De comportamiento  
-- De interacción  
+##### Diagramas UML
+1. **De estructura**  
+2. **De comportamiento**  
+3. **De interacción**

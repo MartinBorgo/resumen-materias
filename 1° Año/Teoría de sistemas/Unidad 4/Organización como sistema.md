@@ -120,3 +120,4 @@ Distribución de personas entre las diversas funciones y departamentos.
 
 ## Partes básicas y tipos organizacionales según Mintzberg
 ![[Partes básicas y tipos organizacionales según Mintzberg.png]]  
+

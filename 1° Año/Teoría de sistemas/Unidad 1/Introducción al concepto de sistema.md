@@ -3,7 +3,7 @@
 ## Definición de sistema
 Conjunto de partes coordinadas y en interacción que forman un todo para alcanzar objetivos  
 
-### Características de un sistema según Churman:
+### Características de un sistema según Churchman:
 1. Objetivos del sistema total  
 2. Ambiente  
 3. Recursos  
@@ -19,7 +19,7 @@ Todo lo que está fuera del alcance del sistema
 1. Lo que está fuera del alcance de control  
 2. Lo que determina el desempeño del sistema  
 
-#### Clasificación del ambiente según Churman
+#### Clasificación del ambiente según Churchman
 |                  | Relevante | No relevante |
 |------------------|-----------|--------------|
 | Controlable      | Sistémico | Ninguno      |
@@ -47,7 +47,7 @@ Todo lo que está fuera del alcance del sistema
 - Característica de los sistemas compuestos, que a su vez se estudian como sistemas  
 
 ## ¿Cómo distinguimos un subsistema?
-- Que cumpla al menos una:  
+Debe cumplir al menos una:  
 1. Producción: Transformar energía o prestar servicios  
 2. Apoyo: Proveer materia prima  
 3. Mantenimiento: Mantener las partes dentro de él  
@@ -102,7 +102,7 @@ Información que sirve como mecanismo de control para que el sistema asegure su 
    1. Abstracto  
    2. Concreto  
 
-#### Considerando un satélite artificial de comunicaciones como un sistema:
+#### Ejemplo: Considerando un satélite artificial de comunicaciones como un sistema:
 a. ¿Qué representa para este sistema:  
    i. Subsistema encargado de proporcionar energía eléctrica al satélite.  
    ii. Señales recibidas desde la estación terrestre.  
@@ -110,11 +110,23 @@ a. ¿Qué representa para este sistema:
    iv. Ondas de radiocomunicación reflejadas hacia la Tierra.  
 b. ¿Qué tipo de sistema es?
 
-#### Dado el siguiente gráfico:
+#### Ejercicio: Dado el siguiente gráfico:
 a. Relaciónalo con los conceptos de recursividad y de frontera.  
 b. Da un ejemplo de la vida real que se vincule con ese gráfico.  
 
-#### Completa el siguiente gráfico con los objetos o elementos de un sistema abierto.
+#### Ejercicio: Completa el siguiente gráfico con los objetos o elementos de un sistema abierto.
 a. Explica en qué consiste cada uno de los elementos.  
 b. Brinda un ejemplo de aplicación de la ley de la conservación y de la ley de los incrementos aplicable a las entradas de un sistema.  
-c. Da un ejemplo de salida positiva y otro de salida negativa.  
+c. Da un ejemplo de salida positiva y otro de salida negativa.
+
+## Sinergia
+Existe sinergia cuando la suma de las partes es diferente del todo. La sinergia es un fenómeno que surge de las interacciones entre las partes o componentes de un sistema.
+
+## Recursividad
+Un sistema sinérgico está compuesto de partes con características tales que son a su vez sistemas sinérgicos.
+
+## Clasificación de sistemas
+- Origen: Natural o Artificial  
+- Relación con el ambiente: Abierto o Cerrado  
+- Nivel de predictibilidad: Predictible o Probabilístico  
+- Naturaleza: Abstracto o Concreto
