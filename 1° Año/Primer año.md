@@ -1,0 +1,5 @@
+- [x] [[Teoría de sistemas]]
+- [ ] [[Álgebra y geometría analítica]]
+- [x] [[Algoritmos y programación]]
+- [ ] [[Análisis matemático 1]]
+- [x] [[Organización de computadoras]]
