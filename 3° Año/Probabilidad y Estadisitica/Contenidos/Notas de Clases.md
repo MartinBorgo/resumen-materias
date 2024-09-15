@@ -56,5 +56,5 @@ Esto es verdadero, porque si la muestra no es lo suficientemente grande, no pode
 
 ## Respuesta Actividad de Gestión de Residuos
 
-1. Cunado se menciona que tenés que hacer un plan muestral y un estudio teniendo en cuenta temas relacionados con el tiempo y los costos, lo ideal sería acotar al máximo la población de donde se saca la muestra, el ejemplo que dio es el de un barrio que se encuentra a las afueras de concordia que tiene problemas con la gestión de los residuos, después dice que esos resultados se pueden comparar con los de otros barrios más céntricos para ver las diferencias.
+1. Cuando se menciona que tenés que hacer un plan muestral y un estudio teniendo en cuenta temas relacionados con el tiempo y los costos, lo ideal sería acotar al máximo la población de donde se saca la muestra, el ejemplo que dio es el de un barrio que se encuentra a las afueras de concordia que tiene problemas con la gestión de los residuos, después dice que esos resultados se pueden comparar con los de otros barrios más céntricos para ver las diferencias.
 2. Para conseguir el tamaño de la muestra, se realiza el cálculo de acuerdo a la confianza seleccionada y al margen de error deseado, en caso de que se conozca el tamaño de la población y esta sea chica en comparación con la muestra se puede aplicar la función de corrección.
