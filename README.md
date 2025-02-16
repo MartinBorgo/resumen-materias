@@ -53,17 +53,17 @@ git clone https://github.com/MartinBorgo/resumen-materias.git
 7. Navega hasta la carpeta donde clonaste el repositorio y selecciónala.
 8. ¡Listo! Ya puedes navegar por los resúmenes con todas las funcionalidades de Obsidian.
 ## ⚙️ Configuración de Obsidian
-Esto es opcional pero recomendada, ya que en caso de que se agreguen nuevos archivos al resumen de forma local puede que algunos enlaces a recursos como otras notas o imágenes no se muestren o redirijan de forma correspondiente.
-- **Files and links > Automatically update internal links** debe estar activado. Esto actualizará automáticamente las referencias a internas de un documento a otro en caso de que se cambie el nombre de un archivo.
-- **Files and links > Default location for new attachments** se debe seleccionar “*in subfolder under current folder*”. Esto hará que las nuevas imágenes u otros archivos adjuntados a un documento se organicen en una carpeta creada en el mismo nivel que el archivo donde se adjuntó ese documento. Al seleccionar esta opción se habilitará una nueva sección, **Files and links > Subfolder name**, en la cual se especifica el nombre de la carpeta donde se guardarán los archivos adjuntos, este valor debe ser “*Anexos*”, aunque una vez tengas el resumen en local se lo puede renombrar a preferencia.
+Este apartado es opcional pero recomendada, ya que en caso de que se agreguen nuevos archivos al resumen de forma local puede que algunos enlaces a recursos como otras notas o imágenes no se muestren o redirijan de forma correspondiente.
+- **Files and links > Automatically update internal links** debe estar activado. Esta opción actualiza automáticamente las referencias internas que existen en un documento hacia otros, es útil para aquellos casos donde se cambia el nombre de los archivos.
+- **Files and links > Default location for new attachments** se debe seleccionar “*in subfolder under current folder*”. Esto hará que los nuevos archivos adjuntados a un documento se organicen en una carpeta creada en el mismo nivel que el archivo donde se adjuntó ese documento. Al seleccionar esta opción se habilitará una nueva sección, **Files and links > Subfolder name**, en la cual se especifica el nombre de la carpeta donde se guardarán los archivos adjuntos, dicho valor debe ser fijado en “*Anexos*”, aunque una vez tengas el resumen en local se lo puede renombrar a preferencia.
 - En la sección de **Community plugins** se puede instalar la extensión ***LanguageTool Integration*** que ayuda a corregir y chequear los errores ortográficos en las palabras. Una vez instalada la extensión se la debe activar y configurar. Las configuraciones son las siguientes:
-	- **LanguageTool Integration > Autocheck Text** debe estar activado
-	- **LanguageTool Integration > Autocheck delay (ms)** debe ser seteado a 4000 porque de lo contrario se buguea mucho el delineado de las palabras.
-	- **LanguageTool Integration > Glass Background** debe estar activado, aunque es solo un opcion estetica y por lo tanto opcional.
-	- **LanguageTool Integration > Static Language** se debe seleccionar “*Spanish*”, ya que el reconocedor automático no anda del todo bien.
-	- **LanguageTool Integration > Picky Mode** esta opción se puede activar en caso de que se desee corregir las terminologías o la sintaxis de ciertas oraciones. Es útil en caso de que se quiera evitar repetir palabras y estructurar correctamente los párrafos de una nota.
+	- **LanguageTool Integration > Autocheck Text** debe estar activado.
+	- **LanguageTool Integration > Autocheck delay (ms)** es recomendable fijarlo a 4000, ya que se suele romper mucho el delineado sobre las palabras a corregir.
+	- **LanguageTool Integration > Glass Background** debe estar activado, aunque es solo una opción estética.
+	- **LanguageTool Integration > Static Language** se debe seleccionar “*Spanish*”. El reconocedor automático de idiomas no anda del todo bien.
+	- **LanguageTool Integration > Picky Mode** esta opción se puede activar en caso de que se desee corregir terminologías o la sintaxis de ciertas oraciones. Es útil en caso de que se quiera evitar repetir palabras y estructurar correctamente los párrafos de una nota.
 ### Customización de los Estilos por Defecto de Obsidian
-En caso de que se quiera tener una apariencia más parecida más ordenada de los párrafos, enumeraciones e items y tablas se puede ir a la siguiente sección **Appearence > CSS snippets** abrir la carpeta donde se sitúan los estilos customizados apretando el icono de una *carpeta* situado al lado derecho de la seccion, crear un nuevo archivo ***CSS*** en dicha carpeta que contenga el siguiente código:
+En caso de que se quiera tener una apariencia más ordenada de los párrafos, enumeraciones, ítems y tablas se puede ir a la siguiente sección **Appearence > CSS snippets** abrir la carpeta donde se sitúan los estilos customizados, crear un nuevo archivo ***CSS*** en dicha carpeta que contenga el siguiente código:
 ```css
 /* ======== Justificado del Texto ======== */
 .markdown-preview-view p,
@@ -171,7 +171,7 @@ img {
 }
 ```
 
-Luego se guarda dicho archivo, se lo activa y para que se aplique se puede cerrar y volver a abrir Obsidian o simplemente darle al botón de refrescar.
+Luego de guardar este archivo se lo debe activar para que se apliquen sus estilos al resto de la interfaz. Para aplicar los cambios se puede cerrar y volver a abrir Obsidian o simplemente refrescar los estilos customizados.
 ## ⚠️ Notas Importantes
 - En el resumen no se contemplan las matemáticas duras como álgebra o análisis matemático, entre otras. Solo se enfoca en las materias que tienen más utilidad para la profesión y con un contenido teórico más pesado.
 - Los resúmenes de 1° y 2° año están menos desarrollados y pueden contener información incompleta o poco detallada.
