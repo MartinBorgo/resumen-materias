@@ -1,5 +1,6 @@
 # Resumen Materias FCAD UNER
-Este repositorio contiene resúmenes de las materias de la carrera Licenciatura en Sistemas de la Facultad de Ciencias de la Administración - Universidad Nacional de Entre Ríos (FCAD UNER).
+Este repositorio contiene resúmenes de las materias de la carrera Licenciatura en Sistemas de la Facultad de Ciencias de la Administración de la Universidad Nacional de Entre Ríos (FCAD UNER).
+El resumen fue realizado teniendo en cuenta el plan de estudios del 2012. Los contenidos son probablemente aplicables a los nuevos planes de estudios, al menos las materias más relevantes.
 ## 📚 Contenido
 El repositorio está organizado por años de la carrera:
 - 1° Año
@@ -53,7 +54,7 @@ git clone https://github.com/MartinBorgo/resumen-materias.git
 7. Navega hasta la carpeta donde clonaste el repositorio y selecciónala.
 8. ¡Listo! Ya puedes navegar por los resúmenes con todas las funcionalidades de Obsidian.
 ## ⚙️ Configuración de Obsidian
-Este apartado es opcional pero recomendada, ya que en caso de que se agreguen nuevos archivos al resumen de forma local puede que algunos enlaces a recursos como otras notas o imágenes no se muestren o redirijan de forma correspondiente.
+Este apartado es opcional pero recomendada, ya que en caso de que se agreguen nuevos archivos al resumen de forma local, puede que algunos enlaces a recursos como otras notas o imágenes no se muestren o redirijan de forma correspondiente.
 - **Files and links > Automatically update internal links** debe estar activado. Esta opción actualiza automáticamente las referencias internas que existen en un documento hacia otros, es útil para aquellos casos donde se cambia el nombre de los archivos.
 - **Files and links > Default location for new attachments** se debe seleccionar “*in subfolder under current folder*”. Esto hará que los nuevos archivos adjuntados a un documento se organicen en una carpeta creada en el mismo nivel que el archivo donde se adjuntó ese documento. Al seleccionar esta opción se habilitará una nueva sección, **Files and links > Subfolder name**, en la cual se especifica el nombre de la carpeta donde se guardarán los archivos adjuntos, dicho valor debe ser fijado en “*Anexos*”, aunque una vez tengas el resumen en local se lo puede renombrar a preferencia.
 - En la sección de **Community plugins** se puede instalar la extensión ***LanguageTool Integration*** que ayuda a corregir y chequear los errores ortográficos en las palabras. Una vez instalada la extensión se la debe activar y configurar. Las configuraciones son las siguientes:
@@ -173,7 +174,7 @@ img {
 
 Luego de guardar este archivo se lo debe activar para que se apliquen sus estilos al resto de la interfaz. Para aplicar los cambios se puede cerrar y volver a abrir Obsidian o simplemente refrescar los estilos customizados.
 ## ⚠️ Notas Importantes
-- En el resumen no se contemplan las matemáticas duras como álgebra o análisis matemático, entre otras. Solo se enfoca en las materias que tienen más utilidad para la profesión y con un contenido teórico más pesado.
+- En el resumen no se contemplan las matemáticas duras como álgebra o análisis matemático, entre otras. Solo se enfoca en las materias con un contenido teórico más pesado.
 - Los resúmenes de 1° y 2° año están menos desarrollados y pueden contener información incompleta o poco detallada.
-- A partir de 3° año, los resúmenes son más completos y detallados, con excepción de algunas materias específicas como Estadística que es un caso particular.
-- La rama `dev` siempre está mucho más actualizada que la rama principal o `master`. En caso de que se lea esto cuando resumen este terminado ambas ramas estarán iguales.
+- A partir de 3° año, los resúmenes son más completos y detallados, con excepción de algunas materias específicas como Estadística, que es un caso particular.
+- La rama `dev` siempre está mucho más actualizada que la rama principal o `master`. En caso de que el resumen ya esté terminado, ambas ramas estarán iguales.
