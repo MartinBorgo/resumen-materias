@@ -5,3 +5,4 @@
 2. [[Indice de Contenidos - Comunicaciones y Redes|Comunicaciones y Redes]].
 3. [[Indice de Contenidos - Logica para las Ciencias Informaticas|Lógica para las Ciencias Informáticas]].
 4. [[Indice de Contenidos - Metodologia de Sistemas II|Metodología de Sistemas II]].
+5. [[Indice de Contenidos - Planeamiento y Control de Gestion|Planeamiento y Control de Gestion]].
