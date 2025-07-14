@@ -1,8 +1,8 @@
 >[!caution] Recomendaciones para la Cursada
 >- Ignorar completamente lo que se habla en los seminarios, el loco se limita a dar y hablar lo que hay en el material de la cátedra, con el plus de que a veces divaga y habla de cosas que nada que ver.
->- Los materiales de la cátedra se pueden obtener en el (siguiente link). Limítense a ver e investigar los temas que aparecen en el material teórico de la cátedra.
->- Para los cuestionarios de la cátedra pongan el material teórico de la cátedra en el [NotebookLM](https://notebooklm.google.com/) y pásenle todas las preguntas, generalmente le pega a todas.
->- Para el desarrollo de las unidades problema no se gasten en redactar usen IA, siempre va a encontrar algo mal. No vale la pena perder tiempo y esfuerzo en eso.
+>- Los materiales de la cátedra se pueden obtener en el siguiente [link](https://drive.google.com/drive/folders/170dEbUt7B4AoP649_SAylA238VUUVVQs?usp=sharing) como `PyCG`. Limítense a ver e investigar los temas que aparecen en el material teórico de la cátedra.
+>- Para los cuestionarios pongan el material teórico en una IA, recomiendo [NotebookLM](https://notebooklm.google.com/). Pásenle todas las preguntas en las que tengan dudas, generalmente responde correctamente a las preguntas.
+>- Para el desarrollo de las unidades problema no se gasten en redactar, usen IA, el profesor siempre va a encontrar algo mal. No vale la pena perder tiempo y esfuerzo en eso.
 
 - Unidad 1 - Planificación.
 	1. [[1. Niveles de Planeamiento#Niveles de Planeamiento|Niveles de Planeamiento]].
