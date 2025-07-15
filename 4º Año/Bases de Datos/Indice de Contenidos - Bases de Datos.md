@@ -3,7 +3,7 @@
 	2. [[1. Introducción#Visión de los Datos|Visión de los Datos]].
 		1. [[1. Introducción#Modelos de Datos|Modelos de Datos]].
 	3. [[1. Introducción#Lenguaje de Bases de Datos|Lenguajes de las Bases de Datos]].
-		1. [[1. Introducción#Lenguaje de Manipulación de Datos|Lenguaje de Manupulación de Datos]].
+		1. [[1. Introducción#Lenguaje de Manipulación de Datos|Lenguaje de Manipulación de Datos]].
 		2. [[1. Introducción#Lenguaje de Definición de Datos|Lenguaje de Definición de Datos]].
 	4. [[1. Introducción#Usuarios y Administradores de Bases de Datos|Tipos de Usuarios de las Bases de Datos]].
 		1. [[1. Introducción#Usuarios de Bases de Datos|Usuarios de las Bases de Datos]].
