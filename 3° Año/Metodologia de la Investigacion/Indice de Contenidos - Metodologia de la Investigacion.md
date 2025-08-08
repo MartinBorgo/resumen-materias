@@ -1,10 +1,10 @@
 - Unidad 1 - Introducción a Conceptos
-	1. [[1. Introduccion#¿Qué es la Investigación?|Definición de Investigación]].
-	2. [[1. Introduccion#Metodología de la Investigación Genérica|Método Científico Genérico]].
-		1. [[1. Introduccion#Jerarquía Conceptual de Conocimientos|Jerarquía del Conocimiento]].
-		2. [[1. Introduccion#Rol de las Ciencias en la Jerarquía|Rol de la Ciencia en La Jerarquía del Conocimiento]].
-	3. [[1. Introduccion#La Hipótesis|Definición y Tipos de Hipótesis]].
-	4. [[1. Introduccion#Las Preguntas de Investigación|Las Preguntas de Investigación]].
+	1. [[3° Año/Metodologia de la Investigacion/Contenidos/1. Introduccion#¿Qué es la Investigación?|Definición de Investigación]].
+	2. [[3° Año/Metodologia de la Investigacion/Contenidos/1. Introduccion#Metodología de la Investigación Genérica|Método Científico Genérico]].
+		1. [[3° Año/Metodologia de la Investigacion/Contenidos/1. Introduccion#Jerarquía Conceptual de Conocimientos|Jerarquía del Conocimiento]].
+		2. [[3° Año/Metodologia de la Investigacion/Contenidos/1. Introduccion#Rol de las Ciencias en la Jerarquía|Rol de la Ciencia en La Jerarquía del Conocimiento]].
+	3. [[3° Año/Metodologia de la Investigacion/Contenidos/1. Introduccion#La Hipótesis|Definición y Tipos de Hipótesis]].
+	4. [[3° Año/Metodologia de la Investigacion/Contenidos/1. Introduccion#Las Preguntas de Investigación|Las Preguntas de Investigación]].
 - Unidad 2 - El Modelo Científico
 	1. [[2. Modelos Cientificos#El Objetivo de la Investigación|Objetivo de la Investigación]].
 		1. [[2. Modelos Cientificos#Contribución|La Contribución en la Ciencia]].
