@@ -31,7 +31,6 @@ El repositorio está organizado por años de la carrera:
 	- Investigación Operativa
 	- Seguridad y Control de Sistemas
 	- Ética y Deontología Profesional
-	- Trabajo Final
 ## 📖 Cómo leer los archivos
 Para una mejor experiencia en la lectura de los archivos Markdown (`.md`), se recomienda utilizar [Obsidian](https://obsidian.md/download). Obsidian es una aplicación de notas que permite:
 - Visualizar los archivos Markdown con formato.
