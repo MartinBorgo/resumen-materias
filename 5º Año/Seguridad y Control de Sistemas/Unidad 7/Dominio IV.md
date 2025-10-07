@@ -133,92 +133,41 @@ La continuidad y calidad de la energía eléctrica son vitales para la operació
 - **Planes de evacuación:** La organización debe contar con planes de evacuación de emergencia documentados y probados que prioricen la seguridad del personal sin dejar las instalaciones desprotegidas.
 
 ### Planificación y Prueba de la Continuidad del Negocio
-La planificación de la continuidad del negocio (BCP, por sus siglas en inglés) se refiere a la capacidad de una organización para sobrevivir a un desastre, asegurando que las operaciones críticas puedan reanudarse dentro de un marco de tiempo predefinido1. El auditor de SI debe evaluar la existencia, integridad y efectividad del plan, verificando que contemple la recuperación de sistemas críticos, la protección de datos y la continuidad de los servicios esenciales2222.
-
+La planificación de la continuidad del negocio (BCP, por sus siglas en inglés) se refiere a la capacidad de una organización para sobrevivir a un desastre, asegurando que las operaciones críticas puedan reanudarse dentro de un marco de tiempo predefinido. El auditor de SI debe evaluar la existencia, integridad y efectividad del plan, verificando que contemple la recuperación de sistemas críticos, la protección de datos y la continuidad de los servicios esenciales.
 #### Requisitos Previos y Análisis de Impacto
-
-Antes de elaborar el plan, la alta gerencia debe definir la política de continuidad y asignar responsabilidades formales a un comité o coordinador de contingencias3. Asimismo, se debe realizar un
-
-**Análisis de Impacto al Negocio (BIA)** que identifique los procesos críticos, los recursos de los que dependen y el tiempo máximo de interrupción tolerable (MTD) para cada uno444444444.
-
+Antes de elaborar el plan, la alta gerencia debe definir la política de continuidad y asignar responsabilidades formales a un comité o coordinador de contingencias. Asimismo, se debe realizar un **Análisis de Impacto al Negocio (BIA)** que identifique los procesos críticos, los recursos de los que dependen y el tiempo máximo de interrupción tolerable (MTD) para cada uno.
 #### Componentes Clave del Plan de Continuidad
-
 Un plan de continuidad efectivo se compone de varios elementos esenciales que involucran a toda la organización.
-
 - **Organización y Responsabilidades:**
-    
-    - El plan debe definir equipos de trabajo con responsabilidades claras para gestionar la crisis5555. Esto incluye un
-        
-        **Equipo de evaluación de daños** 6, un
-        
-        **Equipo de administración de la emergencia** que coordina la recuperación 7, y equipos específicos para software, aplicaciones, redes, seguridad y logística8888888888888888.
-        
+    - El plan debe definir equipos de trabajo con responsabilidades claras para gestionar la crisis. Esto incluye un **Equipo de evaluación de daños**, un **Equipo de administración de la emergencia** que coordina la recuperación, y equipos específicos para software, aplicaciones, redes, seguridad y logística.
 - **Análisis de Riesgos y Clasificación de Sistemas:**
-    
-    - Se deben identificar los sistemas y funciones del negocio y clasificarlos según su criticidad y tolerancia a la interrupción9. La clasificación típica es:
-        
-        - **Críticos:** No pueden realizarse manualmente y su interrupción tiene un costo muy alto10.
-            
-        - **Vitales:** Pueden realizarse manualmente por un corto período (generalmente hasta 5 días)11.
-            
-        - **Sensibles:** Pueden realizarse manualmente por un período más largo, aunque con dificultad y costos adicionales12.
-            
-        - **No críticos:** Pueden interrumpirse por un largo período con poco o ningún costo para la empresa13.
-            
+    - Se deben identificar los sistemas y funciones del negocio y clasificarlos según su criticidad y tolerancia a la interrupción. La clasificación típica es:
+        - **Críticos:** No pueden realizarse manualmente y su interrupción tiene un costo muy alto.
+        - **Vitales:** Pueden realizarse manualmente por un corto período (generalmente hasta 5 días).
+        - **Sensibles:** Pueden realizarse manualmente por un período más largo, aunque con dificultad y costos adicionales.
+        - **No críticos:** Pueden interrumpirse por un largo período con poco o ningún costo para la empresa.
 - **Procedimientos Documentados:**
-    
-    - El plan debe contener procedimientos detallados para cada fase del desastre, incluyendo la acción de emergencia 14, la notificación al personal clave 15, la declaración oficial del desastre 16, y la recuperación de sistemas, redes y funciones de usuario171717171717171717.
-        
+    - El plan debe contener procedimientos detallados para cada fase del desastre, incluyendo la acción de emergencia, la notificación al personal clave, la declaración oficial del desastre, y la recuperación de sistemas, redes y funciones de usuario.
 - **Cobertura de Seguros:**
-    
-    - La organización debe contar con una póliza de seguros adecuada que cubra los distintos aspectos de un desastre18. La cobertura debe incluir daños al equipamiento 19, reconstrucción de medios de almacenamiento 20, gastos extras por continuar operando 21, e interrupción del negocio22.
-        
+    - La organización debe contar con una póliza de seguros adecuada que cubra los distintos aspectos de un desastre. La cobertura debe incluir daños al equipamiento, reconstrucción de medios de almacenamiento, gastos extras por continuar operando, e interrupción del negocio.
 #### Estrategias de Recuperación y Sitios Alternativos
-
 La capacidad de recuperación depende de la disponibilidad de instalaciones y recursos alternativos.
-
 - **Tipos de Sitios de Recuperación:**
-    
-    - **"Hot-Site":** Un centro de procesamiento totalmente configurado y listo para operar en cuestión de horas23. Es la opción más costosa, pero justifica su precio para aplicaciones críticas24.
-        
-    - **"Warm-Site":** Un centro parcialmente configurado, generalmente con periféricos pero sin el computador principal25. La activación puede tomar días o semanas26.
-        
-    - **"Cold-Site":** Una instalación con la infraestructura básica (electricidad, aire acondicionado) pero sin ningún equipo de computación27. Su activación puede demorar semanas28.
-        
-    - **Acuerdos Recíprocos:** Contratos con otras organizaciones que tienen equipos similares29. Son de bajo costo pero a menudo no son exigibles legalmente y su fiabilidad es baja30303030.
-        
+    - **"Hot-Site":** Un centro de procesamiento totalmente configurado y listo para operar en cuestión de horas. Es la opción más costosa, pero justifica su precio para aplicaciones críticas.
+    - **"Warm-Site":** Un centro parcialmente configurado, generalmente con periféricos pero sin el computador principal. La activación puede tomar días o semanas.
+    - **"Cold-Site":** Una instalación con la infraestructura básica (electricidad, aire acondicionado) pero sin ningún equipo de computación. Su activación puede demorar semanas.
+    - **Acuerdos Recíprocos:** Contratos con otras organizaciones que tienen equipos similares. Son de bajo costo pero a menudo no son exigibles legalmente y su fiabilidad es baja.
 - **Recuperación de Telecomunicaciones:**
-    
-    - El plan debe incluir la continuidad de las comunicaciones de voz y datos31. Las estrategias incluyen la
-        
-        **redundancia** (capacidad extra) 32,
-        
-        **rutas alternativas** (usar otros medios como microondas o redes de otros operadores) 33y
-        
-        **rutas diversificadas** (usar cableado físico separado)34.
-        
+    - El plan debe incluir la continuidad de las comunicaciones de voz y datos. Las estrategias incluyen la **redundancia** (capacidad extra), **rutas alternativas** (usar otros medios como microondas o redes de otros operadores) y **rutas diversificadas** (usar cableado físico separado).
 - **Backups en Sede Alternativa:**
-    
-    - Es un prerrequisito crucial para cualquier recuperación35. Se deben realizar copias de seguridad periódicas de todos los archivos de datos, software de sistema, aplicaciones y documentación crítica y almacenarlas en una ubicación externa segura363636363636363636.
-        
+    - Es un prerrequisito crucial para cualquier recuperación. Se deben realizar copias de seguridad periódicas de todos los archivos de datos, software de sistema, aplicaciones y documentación crítica y almacenarlas en una ubicación externa segura.
 #### Prueba y Mantenimiento del Plan
-
 Un plan de continuidad es inútil si no se prueba y actualiza regularmente.
-
 - **Tipos de Pruebas:**
-    
-    - **Prueba sobre papel (Desktop Test):** Una recorrida teórica del plan donde los involucrados discuten los pasos a seguir en un escenario de desastre37.
-        
-    - **Prueba de nivel de preparación:** Una simulación localizada donde se ejecutan partes específicas del plan para probar su efectividad38.
-        
-    - **Prueba operativa completa:** Una simulación a gran escala donde se detienen las operaciones y se trasladan efectivamente a la sede de recuperación39393939.
-        
+    - **Prueba sobre papel (Desktop Test):** Una recorrida teórica del plan donde los involucrados discuten los pasos a seguir en un escenario de desastre.
+    - **Prueba de nivel de preparación:** Una simulación localizada donde se ejecutan partes específicas del plan para probar su efectividad.
+    - **Prueba operativa completa:** Una simulación a gran escala donde se detienen las operaciones y se trasladan efectivamente a la sede de recuperación.
 - **Mantenimiento del Plan:**
-    
-    - El plan debe ser un documento vivo, revisado y actualizado periódicamente para reflejar los cambios en la organización404040404040404040. Un
-        
-        **Coordinador de Recuperación de Desastres** es generalmente el responsable de mantener el plan41.
-        
-### Entrenamiento y Concientización
-
-El personal clave debe recibir entrenamiento regular y participar en las pruebas del plan para asegurar que conozcan sus responsabilidades y los procedimientos a seguir durante una emergencia42424242.
+    - El plan debe ser un documento vivo, revisado y actualizado periódicamente para reflejar los cambios en la organización. Un **Coordinador de Recuperación de Desastres** es generalmente el responsable de mantener el plan.
+#### Entrenamiento y Concientización
+El personal clave debe recibir entrenamiento regular y participar en las pruebas del plan para asegurar que conozcan sus responsabilidades y los procedimientos a seguir durante una emergencia.
